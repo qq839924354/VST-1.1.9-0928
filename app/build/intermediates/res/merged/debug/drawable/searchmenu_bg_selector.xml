@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/live_control_main_ok_foc" android:state_focused="true"/>
+    <item android:drawable="@drawable/live_control_main_ok_foc" android:state_pressed="true"/>
+    <item android:drawable="@drawable/live_control_main_ok_foc" android:state_selected="true"/>
+    <item android:drawable="@drawable/live_control_main_ok_foc" android:state_enabled="false"/>
+    <item android:drawable="@drawable/search_nodata"/>
+
+</selector><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/drawable/searchmenu_bg_selector.xml -->

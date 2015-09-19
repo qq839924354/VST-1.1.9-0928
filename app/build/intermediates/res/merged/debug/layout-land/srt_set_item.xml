@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/filter_bg_selector"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/srt_set_item_gou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="2dp"
+        android:src="@drawable/fliter_gou"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/srt_set_item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:gravity="center"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+</LinearLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/srt_set_item.xml -->

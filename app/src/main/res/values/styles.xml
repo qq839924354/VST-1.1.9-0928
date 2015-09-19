@@ -1,0 +1,188 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="TitleButton">
+        <item name="android:background">@drawable/title_button_selector</item>
+        <item name="android:textColor">@drawable/title_textcolor_selector</item>
+        <item name="android:textSize">32dp</item>
+    </style>
+
+    <style name="menubutton">
+        <item name="android:background">@drawable/title_button_selector</item>
+        <item name="android:textColor">@drawable/menu_textcolor_selector</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+
+    <style name="TextOnMainLayout">
+        <item name="android:textSize">28dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:background">@drawable/hot_text_bg</item>
+        <item name="android:text">离线模式</item>
+        <item name="android:focusable">true</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+
+    <style name="TextOnMainLayout2">
+        <item name="android:textSize">28dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+
+    <style name="marqueeText">
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+
+    <style name="keyPadButton">
+        <item name="android:background">@drawable/keypad_button_selector</item>
+        <item name="android:textColor">@drawable/menu_textcolor_selector</item>
+        <item name="android:textSize">32dp</item>
+        <item name="android:layout_width">50dip</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:onClick">doClick</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="search_keybord_full">
+        <item name="android:background">@drawable/keypad_button_selector</item>
+        <item name="android:textColor">@drawable/menu_textcolor_selector</item>
+        <item name="android:textSize">32dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">doClick</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="search_keybord_t9">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">doClick</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <style name="search_top">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textColor">@drawable/menu_textcolor_selector</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/search_top_sel</item>
+    </style>
+
+    <style name="subMenuButton">
+        <item name="android:background">@drawable/submenu_button_selector</item>
+        <item name="android:textColor">@drawable/menu_textcolor_selector</item>
+        <item name="android:textSize">22dp</item>
+        <item name="android:layout_width">168dip</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="MyDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="CustomDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="exit_window_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center_vertical|right</item>
+    </style>
+
+    <style name="user_info_table">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/title_button_selector</item>
+        <item name="android:textColor">@drawable/channel_item_textcolor_selector</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="set_button_leftpart">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:background">@drawable/set_item_selector</item>
+        <item name="android:textColor">@color/set_button_textcolor</item>
+    </style>
+
+    <style name="live_channelList_animation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/zoomin</item>
+        <item name="android:windowExitAnimation">@anim/live_channellist_exit_anim</item>
+    </style>
+
+    <style name="TextOnMainLayout_new">
+        <item name="android:textSize">28dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:background">@drawable/hot_text_bg</item>
+        <item name="android:focusable">true</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="Player_buf_pro">
+        <item name="android:indeterminateDrawable">@drawable/player_progress_img</item>
+        <item name="android:minWidth">182dp</item>
+        <item name="android:minHeight">182dp</item>
+        <item name="android:maxWidth">182dp</item>
+        <item name="android:maxHeight">182dp</item>
+        <item name="android:indeterminate">false</item>
+    </style>
+
+</resources>

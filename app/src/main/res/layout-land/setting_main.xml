@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/launcher52_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="35dip"
+        android:paddingRight="35dip"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="设置"
+            android:textColor="#b2b2b2"
+            android:textSize="36dp" />
+
+        <ImageView
+            android:layout_width="2dip"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:background="#b2b2b2" />
+
+        <TextView
+            android:id="@+id/set_name1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textColor="#404040"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dip" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dip"
+            android:background="@drawable/setpop"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/set_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="50dip"
+                android:layout_marginLeft="150dip"
+                android:gravity="bottom"
+                android:textColor="@color/white"
+                android:textSize="36dp" />
+            <ViewStub
+                android:id="@+id/set_net_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dip"
+                android:layout_marginTop="15dp"
+                android:layout="@layout/setting_net" />
+
+            <ViewStub
+                android:id="@+id/set_server_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dip"
+                android:layout="@layout/setting_server" />
+            <ViewStub 
+                android:id="@+id/set_weather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="15dp"
+                android:layout="@layout/setting_weather"/>
+
+            <ViewStub
+                android:id="@+id/set_channel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:layout="@layout/setting_other" />
+            <ViewStub 
+                android:id="@+id/set_play"
+                android:layout_width="wrap_content"
+                android:layout_height="400dp"
+                android:layout_marginLeft="40dp"
+                android:layout="@layout/setting_play"/>
+
+            <ViewStub
+                android:id="@+id/set_login_regest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/setting_login" />
+
+            <ViewStub
+                android:id="@+id/set_regest"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/setting_regest" />
+
+            <ViewStub
+                android:id="@+id/set_clearcache"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/setting_clearcache" />
+            
+            <ViewStub 
+                android:id="@+id/set_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="15dp"
+                android:layout="@layout/setting_speed"/>
+            
+            <ViewStub
+                android:id="@+id/set_develop"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout="@layout/in_developing" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/set_item_log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+</LinearLayout>

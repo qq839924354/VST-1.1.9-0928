@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/osd_bg_bottom"
+    android:gravity="bottom" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        <TextView
+            android:id="@+id/xllx_ctr_videoName"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="videoName"
+            android:textColor="#ff9b00"
+            android:textSize="32sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip" >
+
+            <TextView
+                android:id="@+id/xllx_ctr_current_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingRight="10dip"
+                android:text="00:00:00"
+                android:textColor="@color/white"
+                android:textSize="26sp" />
+
+            <SeekBar
+                android:id="@+id/xllx_ctr_seekbar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:max="1000"
+                android:paddingLeft="10px"
+                android:paddingRight="10px"
+                android:progress="0"
+                android:progressDrawable="@drawable/seekbar_style"
+                android:secondaryProgress="0"
+                android:thumb="@drawable/seekbar_thum" />
+
+            <TextView
+                android:id="@+id/xllx_ctr_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:paddingLeft="10dp"
+                android:text="00:00:00"
+                android:textColor="@color/white"
+                android:textSize="26sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="20dip" >
+
+            <ImageView
+                android:id="@+id/xllx_ctr_rewind"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:src="@drawable/osd_rewind_selector" />
+
+            <ImageView
+                android:id="@+id/xllx_ctr_play_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:src="@drawable/osd_play_selector" />
+
+            <ImageView
+                android:id="@+id/xllx_ctr_forward"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:src="@drawable/osd_forward_selector" />
+
+            <ImageView
+                android:id="@+id/xllx_ctr_sharpness_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:focusable="true"
+                android:focusableInTouchMode="true" />
+
+            <RadioGroup
+                android:id="@+id/xllx_ctr_sharpness_choose"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+     <TextView
+        android:id="@+id/xllx_ctr_tiptime_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tip_time_bg"
+        android:text="00:00:00"
+        android:textSize="24sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="@android:color/white"
+        android:visibility="invisible" />
+
+</FrameLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/lixian_ctrbot_layout.xml -->

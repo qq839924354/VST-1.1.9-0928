@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="440dp"
+    android:layout_height="480dp"
+    android:background="@drawable/setup_bg_left"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@id/user_info"
+        style="@style/set_button_leftpart"
+        android:text="基本设置" />
+<!-- 
+    <Button
+        android:id="@id/user_tvmg"
+        style="@style/set_button_leftpart"
+        android:layout_marginTop="60dp"
+        android:text="电视管理" />
+
+    <Button
+        android:id="@id/user_share"
+        style="@style/set_button_leftpart"
+        android:layout_marginTop="120dp"
+        android:text="共享资源" /> -->
+
+    <Button
+        android:id="@id/user_inturduce"
+        style="@style/set_button_leftpart"
+        android:layout_marginTop="60dp"
+        android:text="使用说明" />
+
+    <Button
+        android:id="@id/user_exit"
+        style="@style/set_button_leftpart"
+        android:layout_marginTop="120dp"
+        android:text="退出登录" />
+
+</FrameLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/user_set_main_step0.xml -->

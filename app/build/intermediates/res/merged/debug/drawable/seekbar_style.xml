@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+     
+    <item android:id="@android:id/background" android:drawable="@drawable/seekbar_beg">
+    </item>
+    <item android:id="@android:id/secondaryProgress"> 
+        <clip android:drawable="@drawable/seekbar_buff" />
+    </item>
+    <item android:id="@android:id/progress">
+        <clip android:drawable="@drawable/seekbar_slider"/>
+    </item>
+    
+     
+     <!-- 
+     <item android:id="@android:id/background">    
+      <shape>    
+         <corners android:radius="15dip" />    
+         <gradient    
+             android:startColor="#ffffffff"  
+             android:centerColor="#ff000000"    
+             android:endColor="#ff808A87"   
+             android:centerY="0.45"    
+             android:angle="270"/>    
+      </shape>    
+   </item>    
+     
+   <item android:id="@android:id/progress">    
+       <clip>    
+          <shape>    
+              <corners android:radius="15dip" />    
+              <gradient    
+                  android:startColor="#ffffffff"  
+                  android:centerColor="#ffFFFF00"    
+                  android:endColor="#ffAABD00"   
+                  android:centerY="0.45"    
+                  android:angle="270"/>    
+          </shape>    
+       </clip>    
+   </item>  
+   
+    <item android:id="@android:id/secondaryProgress">    
+       <clip>    
+          <shape>    
+              <corners android:radius="15dip" />    
+              <gradient    
+                  android:startColor="#ffffffff"  
+                  android:centerColor="#ff12FF00"    
+                  android:endColor="#ffAABD00"   
+                  android:centerY="0.45"    
+                  android:angle="270"/>    
+          </shape>    
+       </clip>    
+   </item>  
+    -->
+</layer-list><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/drawable/seekbar_style.xml -->

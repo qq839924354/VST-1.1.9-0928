@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:text="服务器列表"
+        android:textColor="@color/white"
+        android:textSize="18dp" />
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+            android:layout_marginTop="15dip"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/server_server1"
+            android:layout_width="850dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_item_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:paddingTop="10dip" >
+
+            <ImageView
+                android:id="@+id/set_choose_log1"
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:layout_marginLeft="5dip"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/gou" />
+
+            <TextView
+                android:id="@+id/set_item_main"
+                android:layout_width="600dp"
+                android:layout_height="wrap_content"
+                android:text="服务器一"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/set_item_status1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="等待检测……"
+                android:textSize="24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/server_server2"
+            android:layout_width="850dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_item_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="60dp"
+            android:focusableInTouchMode="true"
+            android:paddingTop="10dip" >
+
+            <ImageView
+                android:id="@+id/set_choose_log2"
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:layout_marginLeft="5dip"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/gou" />
+
+            <TextView
+                android:id="@+id/set_item_wcdma"
+                android:layout_width="600dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="服务器二"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/set_item_status2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="等待检测……"
+                android:textSize="24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/server_server3"
+            android:layout_width="850dip"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_item_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_marginTop="120dp"
+            android:focusableInTouchMode="true"
+            android:paddingTop="10dip" >
+
+            <ImageView
+                android:id="@+id/set_choose_log3"
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dip"
+                android:src="@drawable/gou" />
+
+            <TextView
+                android:id="@+id/set_item_hk"
+                android:layout_width="600dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center_vertical"
+                android:text="服务器三"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/set_item_status3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_alignParentLeft="true"
+                android:text="等待检测……"
+                android:textSize="24dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/server_reserver"
+            android:layout_width="850dip"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/set_item_selector"
+            android:paddingTop="10dip" >
+
+            <ImageView
+                android:id="@+id/set_choose_log4"
+                android:layout_width="35dip"
+                android:layout_height="35dip"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dip"
+                android:src="@drawable/gou" />
+
+            <TextView
+                android:id="@+id/set_item_unin"
+                android:layout_width="600dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="备用服务器"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+            <TextView
+                android:id="@+id/set_item_status4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="等待检测……"
+                android:textSize="24dp" />
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

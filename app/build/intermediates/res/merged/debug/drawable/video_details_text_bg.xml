@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <solid android:color="#00ffff"/>
+    <stroke android:width="2dip"
+        android:color="#00ccff"/>
+
+</shape><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/drawable/video_details_text_bg.xml -->

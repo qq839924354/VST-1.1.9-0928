@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <LinearLayout
+        android:layout_width="400dip"
+        android:layout_height="336dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="50dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:text="用户名："
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+            <EditText
+                android:id="@+id/setting_login_username"
+                android:layout_width="300dip"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/edittext_bg_selector"
+                android:ellipsize="start"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="24dp"
+                android:textStyle="bold" >
+
+                <requestFocus />
+            </EditText>
+
+            <Button
+                android:id="@+id/setting_login_users"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/title_button_selector"
+                android:text="+"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/setting_login_password"
+                android:layout_width="300dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/edittext_bg_selector"
+                android:ellipsize="start"
+                android:inputType="textPassword"
+                android:nextFocusDown="@+id/setting_login_remember"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:text="密    码："
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relaCode"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="验证码： "
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+            <FrameLayout
+                android:id="@+id/frameImage"
+                android:layout_width="145dip"
+                android:layout_height="fill_parent"
+                android:layout_alignParentRight="true"
+                android:layout_toRightOf="@+id/setting_login_passCode" >
+
+                <ImageView
+                    android:id="@+id/setting_login_code"
+                    android:layout_width="145dip"
+                    android:layout_height="fill_parent"
+                    android:focusable="true"
+                    android:scaleType="fitXY" />
+            </FrameLayout>
+
+            <EditText
+                android:id="@+id/setting_login_passCode"
+                android:layout_width="150dip"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="8dip"
+                android:layout_toRightOf="@+id/textView1"
+                android:background="@drawable/edittext_bg_selector"
+                android:ellipsize="start"
+                android:ems="10"
+                android:nextFocusDown="@+id/setting_login_remember"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textSize="24dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:text="有效期： "
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+            <RadioGroup
+                android:id="@+id/rbCookieData"
+                android:layout_width="300dip"
+                android:layout_height="40dp"
+                android:layout_toRightOf="@+id/textView1"
+                android:checkedButton="@+id/rbSevenDay"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/rbOneDay"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="一天" />
+
+                <RadioButton
+                    android:id="@+id/rbSevenDay"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="七天" />
+
+                <RadioButton
+                    android:id="@+id/rbMounth"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="一月" />
+            </RadioGroup>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip" >
+
+            <Button
+                android:id="@+id/setting_login_login"
+                android:layout_width="150dip"
+                android:layout_height="50dip"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/video_details_btn_selector"
+                android:text="登录"
+                android:textColor="@color/detail_point"
+                android:textSize="24dp" />
+
+            <Button
+                android:id="@+id/setting_login_regest"
+                android:layout_width="150dip"
+                android:layout_height="50dip"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/video_details_btn_selector"
+                android:text="注册"
+                android:textColor="@color/detail_point"
+                android:textSize="24dp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/setting_login.xml -->

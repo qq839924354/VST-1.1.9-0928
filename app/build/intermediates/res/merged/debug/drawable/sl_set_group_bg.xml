@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+   <item android:drawable="@drawable/sp_bg_orange" android:state_checked="true" />
+    <item android:drawable="@drawable/sp_bg_blue" android:state_checked="false" android:state_focused="true"/>
+   <item android:drawable="@drawable/sp_bg_dark" />
+</selector><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/drawable/sl_set_group_bg.xml -->

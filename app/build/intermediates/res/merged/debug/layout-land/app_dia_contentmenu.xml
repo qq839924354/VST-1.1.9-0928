@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_pop_listbg"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/app_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/item_selector"
+        android:focusableInTouchMode="true"
+        android:text="首页显示"
+        android:textColor="@color/channel_list_item_text"
+        android:textSize="24dip" />
+
+    <Button
+        android:id="@+id/app_boot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_selector"
+        android:focusableInTouchMode="true"
+        android:text="启动应用"
+        android:textColor="@color/channel_list_item_text"
+        android:textSize="24dip" />
+
+    <Button
+        android:id="@+id/app_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/item_selector"
+        android:focusableInTouchMode="true"
+        android:text="应用详情"
+        android:textColor="@color/channel_list_item_text"
+        android:textSize="24dip" />
+
+    <Button
+        android:id="@+id/app_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dip"
+        android:background="@drawable/item_selector"
+        android:focusableInTouchMode="true"
+        android:text="卸载应用"
+        android:textColor="@color/channel_list_item_text"
+        android:textSize="24dip" />
+
+</LinearLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/app_dia_contentmenu.xml -->

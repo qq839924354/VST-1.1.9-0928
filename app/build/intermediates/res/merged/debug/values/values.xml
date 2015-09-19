@@ -1,0 +1,771 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black">#000</color>
+    <color name="blue">#0000ff</color>
+    <color name="blue_user">#00a8ff</color>
+    <color name="dark">#B2B2B2</color>
+    <color name="dark_404040">#404040</color>
+    <color name="detail_main_text">#999999</color>
+    <color name="detail_point">#ffaa00</color>
+    <color name="gray">#FF8b8b8b</color>
+    <color name="green">#b2ffb2</color>
+    <color name="red">#e20</color>
+    <color name="white">#ffffff</color>
+    <declare-styleable name="MyGallery"><attr name="android:galleryItemBackground"/></declare-styleable>
+    <!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="app_bg_0" type="id"/>
+    <item name="app_bg_1" type="id"/>
+    <item name="app_bg_2" type="id"/>
+    <item name="app_bg_3" type="id"/>
+    <item name="app_bg_4" type="id"/>
+    <item name="app_bg_5" type="id"/>
+    <item name="app_bg_6" type="id"/>
+    <item name="app_bg_7" type="id"/>
+    <item name="app_bg_8" type="id"/>
+    <item name="app_bg_9" type="id"/>
+    <item name="app_fl_0" type="id"/>
+    <item name="app_fl_1" type="id"/>
+    <item name="app_fl_2" type="id"/>
+    <item name="app_fl_3" type="id"/>
+    <item name="app_fl_4" type="id"/>
+    <item name="app_fl_5" type="id"/>
+    <item name="app_fl_6" type="id"/>
+    <item name="app_fl_7" type="id"/>
+    <item name="app_fl_8" type="id"/>
+    <item name="app_fl_9" type="id"/>
+    <item name="app_icon" type="id"/>
+    <item name="app_move_0" type="id"/>
+    <item name="app_move_1" type="id"/>
+    <item name="app_move_10" type="id"/>
+    <item name="app_move_11" type="id"/>
+    <item name="app_move_2" type="id"/>
+    <item name="app_move_3" type="id"/>
+    <item name="app_move_4" type="id"/>
+    <item name="app_move_5" type="id"/>
+    <item name="app_move_6" type="id"/>
+    <item name="app_move_7" type="id"/>
+    <item name="app_move_8" type="id"/>
+    <item name="app_move_9" type="id"/>
+    <item name="app_name" type="id"/>
+    <item name="app_name_0" type="id"/>
+    <item name="app_name_1" type="id"/>
+    <item name="app_name_2" type="id"/>
+    <item name="app_name_3" type="id"/>
+    <item name="app_name_4" type="id"/>
+    <item name="app_name_5" type="id"/>
+    <item name="app_name_6" type="id"/>
+    <item name="app_name_7" type="id"/>
+    <item name="app_name_8" type="id"/>
+    <item name="app_name_9" type="id"/>
+    <item name="app_new_0" type="id"/>
+    <item name="app_new_1" type="id"/>
+    <item name="app_new_2" type="id"/>
+    <item name="app_new_3" type="id"/>
+    <item name="app_new_4" type="id"/>
+    <item name="app_new_5" type="id"/>
+    <item name="app_new_6" type="id"/>
+    <item name="app_new_7" type="id"/>
+    <item name="app_new_8" type="id"/>
+    <item name="app_new_9" type="id"/>
+    <item name="app_poster_0" type="id"/>
+    <item name="app_poster_1" type="id"/>
+    <item name="app_poster_2" type="id"/>
+    <item name="app_poster_3" type="id"/>
+    <item name="app_poster_4" type="id"/>
+    <item name="app_poster_5" type="id"/>
+    <item name="app_poster_6" type="id"/>
+    <item name="app_poster_7" type="id"/>
+    <item name="app_poster_8" type="id"/>
+    <item name="app_poster_9" type="id"/>
+    <item name="app_refimg_0" type="id"/>
+    <item name="app_refimg_1" type="id"/>
+    <item name="app_refimg_2" type="id"/>
+    <item name="app_refimg_3" type="id"/>
+    <item name="app_refimg_4" type="id"/>
+    <item name="application" type="id"/>
+    <item name="filter_area" type="id"/>
+    <item name="filter_list_area" type="id"/>
+    <item name="filter_list_rank" type="id"/>
+    <item name="filter_list_sharp" type="id"/>
+    <item name="filter_list_sort" type="id"/>
+    <item name="filter_list_type" type="id"/>
+    <item name="filter_list_year" type="id"/>
+    <item name="filter_rank" type="id"/>
+    <item name="filter_sharp" type="id"/>
+    <item name="filter_sort" type="id"/>
+    <item name="filter_type" type="id"/>
+    <item name="filter_year" type="id"/>
+    <item name="history_list" type="id"/>
+    <item name="history_list_item_grid" type="id"/>
+    <item name="history_list_item_tvTime" type="id"/>
+    <item name="hot_reflected_img_0" type="id"/>
+    <item name="hot_reflected_img_1" type="id"/>
+    <item name="hot_reflected_img_2" type="id"/>
+    <item name="hot_reflected_img_3" type="id"/>
+    <item name="hot_reflected_img_4" type="id"/>
+    <item name="hot_reflected_img_5" type="id"/>
+    <item name="input_dialog_title" type="id"/>
+    <item name="input_dns" type="id"/>
+    <item name="input_dns_et" type="id"/>
+    <item name="input_gateway" type="id"/>
+    <item name="input_gateway_et" type="id"/>
+    <item name="input_ipAdd" type="id"/>
+    <item name="input_ipAdd_et" type="id"/>
+    <item name="input_number_et" type="id"/>
+    <item name="input_subnet" type="id"/>
+    <item name="input_subnet_et" type="id"/>
+    <item name="latest_layout" type="id"/>
+    <item name="latest_recommend" type="id"/>
+    <item name="latest_recommend_bg_0" type="id"/>
+    <item name="latest_recommend_bg_1" type="id"/>
+    <item name="latest_recommend_bg_2" type="id"/>
+    <item name="latest_recommend_bg_3" type="id"/>
+    <item name="latest_recommend_bg_4" type="id"/>
+    <item name="latest_recommend_bg_5" type="id"/>
+    <item name="latest_recommend_bg_6" type="id"/>
+    <item name="latest_recommend_bg_7" type="id"/>
+    <item name="latest_recommend_bg_8" type="id"/>
+    <item name="latest_recommend_bg_9" type="id"/>
+    <item name="latest_recommend_fl_0" type="id"/>
+    <item name="latest_recommend_fl_1" type="id"/>
+    <item name="latest_recommend_fl_2" type="id"/>
+    <item name="latest_recommend_fl_3" type="id"/>
+    <item name="latest_recommend_fl_4" type="id"/>
+    <item name="latest_recommend_fl_5" type="id"/>
+    <item name="latest_recommend_fl_6" type="id"/>
+    <item name="latest_recommend_fl_7" type="id"/>
+    <item name="latest_recommend_fl_8" type="id"/>
+    <item name="latest_recommend_fl_9" type="id"/>
+    <item name="latest_recommend_poster_0" type="id"/>
+    <item name="latest_recommend_poster_1" type="id"/>
+    <item name="latest_recommend_poster_2" type="id"/>
+    <item name="latest_recommend_poster_3" type="id"/>
+    <item name="latest_recommend_poster_4" type="id"/>
+    <item name="latest_recommend_poster_5" type="id"/>
+    <item name="latest_recommend_poster_6" type="id"/>
+    <item name="latest_recommend_poster_7" type="id"/>
+    <item name="latest_recommend_poster_8" type="id"/>
+    <item name="latest_recommend_poster_9" type="id"/>
+    <item name="latest_recommend_text_0" type="id"/>
+    <item name="latest_recommend_text_1" type="id"/>
+    <item name="latest_recommend_text_2" type="id"/>
+    <item name="latest_recommend_text_3" type="id"/>
+    <item name="latest_recommend_text_4" type="id"/>
+    <item name="latest_recommend_text_5" type="id"/>
+    <item name="latest_recommend_text_6" type="id"/>
+    <item name="latest_recommend_text_7" type="id"/>
+    <item name="latest_recommend_text_8" type="id"/>
+    <item name="latest_recommend_text_9" type="id"/>
+    <item name="live_channellist_item_fav_img" type="id"/>
+    <item name="live_channellist_item_name_txt" type="id"/>
+    <item name="live_channellist_item_num_txt" type="id"/>
+    <item name="live_channellist_item_sharp_img" type="id"/>
+    <item name="live_channellist_layout_channel_list" type="id"/>
+    <item name="live_channellist_layout_channeltype_txt" type="id"/>
+    <item name="live_channellist_layout_empty_txt" type="id"/>
+    <item name="live_control_main_bufgif_img" type="id"/>
+    <item name="live_control_main_channelepg1_txt" type="id"/>
+    <item name="live_control_main_channelepg2_txt" type="id"/>
+    <item name="live_control_main_channelepg_txt" type="id"/>
+    <item name="live_control_main_channelname_txt" type="id"/>
+    <item name="live_control_main_channelnum_txt" type="id"/>
+    <item name="live_control_main_channelprogress_prgbar" type="id"/>
+    <item name="live_control_main_channelsource_txt" type="id"/>
+    <item name="live_control_main_menu_txt" type="id"/>
+    <item name="live_control_main_nextchannel_txt" type="id"/>
+    <item name="live_control_main_ok_txt" type="id"/>
+    <item name="live_control_main_prevtchannel_txt" type="id"/>
+    <item name="live_control_main_quality_txt" type="id"/>
+    <item name="live_control_main_realtimespeed_txt" type="id"/>
+    <item name="live_control_new_bufgif" type="id"/>
+    <item name="live_control_new_bufimg" type="id"/>
+    <item name="live_control_new_channle_index" type="id"/>
+    <item name="live_control_new_channle_name" type="id"/>
+    <item name="live_control_new_channle_source" type="id"/>
+    <item name="live_control_new_cwtime" type="id"/>
+    <item name="live_control_new_epg_current" type="id"/>
+    <item name="live_control_new_epg_next" type="id"/>
+    <item name="live_control_new_speed" type="id"/>
+    <item name="live_control_new_systime" type="id"/>
+    <item name="main_layout_pager" type="id"/>
+    <item name="main_search" type="id"/>
+    <item name="net_adv_auto_ip" type="id"/>
+    <item name="net_adv_user_ip" type="id"/>
+    <item name="net_adv_wifi_add" type="id"/>
+    <item name="net_adv_wifi_on_off" type="id"/>
+    <item name="net_earth_auto_ip" type="id"/>
+    <item name="net_earth_status" type="id"/>
+    <item name="net_earth_user_ip" type="id"/>
+    <item name="new_app" type="id"/>
+    <item name="news_current_play" type="id"/>
+    <item name="news_img" type="id"/>
+    <item name="news_list" type="id"/>
+    <item name="news_text" type="id"/>
+    <item name="news_tv" type="id"/>
+    <item name="news_video" type="id"/>
+    <item name="offline_item_fileName" type="id"/>
+    <item name="offline_item_post" type="id"/>
+    <item name="play_colection_layout" type="id"/>
+    <item name="play_collect" type="id"/>
+    <item name="play_collect_bg_0" type="id"/>
+    <item name="play_collect_bg_1" type="id"/>
+    <item name="play_collect_bg_2" type="id"/>
+    <item name="play_collect_fl_0" type="id"/>
+    <item name="play_collect_fl_1" type="id"/>
+    <item name="play_collect_fl_2" type="id"/>
+    <item name="play_collect_info_0" type="id"/>
+    <item name="play_collect_info_1" type="id"/>
+    <item name="play_collect_info_2" type="id"/>
+    <item name="play_collect_post_0" type="id"/>
+    <item name="play_collect_post_1" type="id"/>
+    <item name="play_collect_post_2" type="id"/>
+    <item name="play_collect_reflected_img" type="id"/>
+    <item name="play_collect_tv_fl" type="id"/>
+    <item name="player_menu_chooseSet" type="id"/>
+    <item name="player_menu_fav" type="id"/>
+    <item name="player_menu_fav_text" type="id"/>
+    <item name="player_menu_list" type="id"/>
+    <item name="player_menu_sclar" type="id"/>
+    <item name="player_menu_sclar_left" type="id"/>
+    <item name="player_menu_sclar_right" type="id"/>
+    <item name="player_menu_sclar_tv" type="id"/>
+    <item name="player_menu_sharp" type="id"/>
+    <item name="player_menu_sharp_left" type="id"/>
+    <item name="player_menu_sharp_right" type="id"/>
+    <item name="player_menu_sharp_tv" type="id"/>
+    <item name="player_menu_source" type="id"/>
+    <item name="player_menu_source_left" type="id"/>
+    <item name="player_menu_source_right" type="id"/>
+    <item name="player_menu_source_tv" type="id"/>
+    <item name="player_menu_srt" type="id"/>
+    <item name="player_menu_srt_left" type="id"/>
+    <item name="player_menu_srt_right" type="id"/>
+    <item name="player_menu_srt_setting" type="id"/>
+    <item name="player_menu_srt_textSet" type="id"/>
+    <item name="player_menu_srt_tv" type="id"/>
+    <item name="player_menu_voice" type="id"/>
+    <item name="player_menu_voice_left" type="id"/>
+    <item name="player_menu_voice_right" type="id"/>
+    <item name="player_menu_voice_tv" type="id"/>
+    <item name="search_all" type="id"/>
+    <item name="search_art" type="id"/>
+    <item name="search_cartoon" type="id"/>
+    <item name="search_doc" type="id"/>
+    <item name="search_empty_text" type="id"/>
+    <item name="search_film" type="id"/>
+    <item name="search_hot" type="id"/>
+    <item name="search_keybord_full" type="id"/>
+    <item name="search_keybord_full_EN_CH" type="id"/>
+    <item name="search_keybord_full_clear" type="id"/>
+    <item name="search_keybord_full_del" type="id"/>
+    <item name="search_keybord_full_layout" type="id"/>
+    <item name="search_keybord_full_space" type="id"/>
+    <item name="search_keybord_hint" type="id"/>
+    <item name="search_keybord_input" type="id"/>
+    <item name="search_keybord_t9" type="id"/>
+    <item name="search_keybord_t9_clear" type="id"/>
+    <item name="search_keybord_t9_del" type="id"/>
+    <item name="search_keybord_t9_layout" type="id"/>
+    <item name="search_result" type="id"/>
+    <item name="search_srt_search_button" type="id"/>
+    <item name="search_srt_search_content" type="id"/>
+    <item name="search_srt_search_liseview" type="id"/>
+    <item name="search_top_tables" type="id"/>
+    <item name="search_tv" type="id"/>
+    <item name="set_about_bg" type="id"/>
+    <item name="set_about_fl" type="id"/>
+    <item name="set_about_iv" type="id"/>
+    <item name="set_about_version" type="id"/>
+    <item name="set_autolive" type="id"/>
+    <item name="set_autolive_left" type="id"/>
+    <item name="set_autolive_right" type="id"/>
+    <item name="set_autolive_tv" type="id"/>
+    <item name="set_clear_bg" type="id"/>
+    <item name="set_clear_fl" type="id"/>
+    <item name="set_clear_iv" type="id"/>
+    <item name="set_defined" type="id"/>
+    <item name="set_defined_left" type="id"/>
+    <item name="set_defined_right" type="id"/>
+    <item name="set_defined_tv" type="id"/>
+    <item name="set_jump" type="id"/>
+    <item name="set_jump_left" type="id"/>
+    <item name="set_jump_right" type="id"/>
+    <item name="set_jump_tv" type="id"/>
+    <item name="set_lr" type="id"/>
+    <item name="set_lr_left" type="id"/>
+    <item name="set_lr_right" type="id"/>
+    <item name="set_lr_tv" type="id"/>
+    <item name="set_net_type_iv" type="id"/>
+    <item name="set_other_bg" type="id"/>
+    <item name="set_other_fl" type="id"/>
+    <item name="set_other_iv" type="id"/>
+    <item name="set_refimg_1" type="id"/>
+    <item name="set_refimg_2" type="id"/>
+    <item name="set_refimg_3" type="id"/>
+    <item name="set_refimg_4" type="id"/>
+    <item name="set_renew" type="id"/>
+    <item name="set_scalor" type="id"/>
+    <item name="set_scalor_left" type="id"/>
+    <item name="set_scalor_right" type="id"/>
+    <item name="set_scalor_tv" type="id"/>
+    <item name="set_server_bg" type="id"/>
+    <item name="set_server_fl" type="id"/>
+    <item name="set_server_iv" type="id"/>
+    <item name="set_sharp" type="id"/>
+    <item name="set_sharp_left" type="id"/>
+    <item name="set_sharp_right" type="id"/>
+    <item name="set_sharp_tv" type="id"/>
+    <item name="set_speed_bg" type="id"/>
+    <item name="set_speed_fl" type="id"/>
+    <item name="set_speed_iv" type="id"/>
+    <item name="set_ud" type="id"/>
+    <item name="set_ud_left" type="id"/>
+    <item name="set_ud_right" type="id"/>
+    <item name="set_ud_tv" type="id"/>
+    <item name="set_user_bg" type="id"/>
+    <item name="set_user_fl" type="id"/>
+    <item name="set_user_iv" type="id"/>
+    <item name="set_vod_bg" type="id"/>
+    <item name="set_vod_fl" type="id"/>
+    <item name="set_vod_iv" type="id"/>
+    <item name="set_vod_jump_end_et" type="id"/>
+    <item name="set_vod_jump_start_et" type="id"/>
+    <item name="set_weather_bg" type="id"/>
+    <item name="set_weather_fl" type="id"/>
+    <item name="set_weather_iv" type="id"/>
+    <item name="settings" type="id"/>
+    <item name="settings_layout" type="id"/>
+    <item name="srtName" type="id"/>
+    <item name="srt_set_pop_color" type="id"/>
+    <item name="srt_set_pop_list" type="id"/>
+    <item name="srt_set_pop_location" type="id"/>
+    <item name="srt_set_pop_settingTime" type="id"/>
+    <item name="srt_set_pop_size" type="id"/>
+    <item name="subject_container" type="id"/>
+    <item name="subject_container_hs" type="id"/>
+    <item name="subject_frame" type="id"/>
+    <item name="subject_name" type="id"/>
+    <item name="subject_pageBG" type="id"/>
+    <item name="subject_pageBG_hs" type="id"/>
+    <item name="subject_poster" type="id"/>
+    <item name="subject_ref" type="id"/>
+    <item name="title_group" type="id"/>
+    <item name="tv_show" type="id"/>
+    <item name="tv_show_bg_0" type="id"/>
+    <item name="tv_show_bg_1" type="id"/>
+    <item name="tv_show_bg_2" type="id"/>
+    <item name="tv_show_bg_3" type="id"/>
+    <item name="tv_show_fl_0" type="id"/>
+    <item name="tv_show_fl_1" type="id"/>
+    <item name="tv_show_fl_2" type="id"/>
+    <item name="tv_show_fl_3" type="id"/>
+    <item name="tv_show_layout" type="id"/>
+    <item name="tv_show_log_0" type="id"/>
+    <item name="tv_show_log_1" type="id"/>
+    <item name="tv_show_log_2" type="id"/>
+    <item name="tv_show_log_3" type="id"/>
+    <item name="tv_show_post_0" type="id"/>
+    <item name="tv_show_post_1" type="id"/>
+    <item name="tv_show_post_2" type="id"/>
+    <item name="tv_show_post_3" type="id"/>
+    <item name="tv_show_reflected_img" type="id"/>
+    <item name="tv_show_tv" type="id"/>
+    <item name="tv_show_video" type="id"/>
+    <item name="user_exit" type="id"/>
+    <item name="user_info" type="id"/>
+    <item name="user_inturduce" type="id"/>
+    <item name="user_set_info_datum" type="id"/>
+    <item name="user_set_info_datum_add" type="id"/>
+    <item name="user_set_info_datum_card" type="id"/>
+    <item name="user_set_info_datum_name" type="id"/>
+    <item name="user_set_info_datum_phone" type="id"/>
+    <item name="user_set_info_datum_qq" type="id"/>
+    <item name="user_set_info_datum_sex" type="id"/>
+    <item name="user_set_info_datum_zip" type="id"/>
+    <item name="user_set_info_person_email" type="id"/>
+    <item name="user_set_info_person_id" type="id"/>
+    <item name="user_set_info_person_last" type="id"/>
+    <item name="user_set_info_person_login" type="id"/>
+    <item name="user_set_info_person_nickname" type="id"/>
+    <item name="user_set_info_person_point" type="id"/>
+    <item name="user_set_info_person_qq" type="id"/>
+    <item name="user_set_info_person_reg" type="id"/>
+    <item name="user_set_info_person_this" type="id"/>
+    <item name="user_set_info_personal" type="id"/>
+    <item name="user_set_info_pwd" type="id"/>
+    <item name="user_set_info_pwd_last" type="id"/>
+    <item name="user_set_info_pwd_new1" type="id"/>
+    <item name="user_set_info_pwd_new2" type="id"/>
+    <item name="user_set_main_back" type="id"/>
+    <item name="user_set_main_back_tv" type="id"/>
+    <item name="user_set_main_menu" type="id"/>
+    <item name="user_set_main_menu_tv" type="id"/>
+    <item name="user_set_main_ok" type="id"/>
+    <item name="user_set_main_ok_tv" type="id"/>
+    <item name="user_set_main_step0" type="id"/>
+    <item name="user_set_main_step0_tv" type="id"/>
+    <item name="user_set_step" type="id"/>
+    <item name="user_set_step1_info" type="id"/>
+    <item name="user_set_step2_info_datum" type="id"/>
+    <item name="user_set_step2_info_person" type="id"/>
+    <item name="user_set_step2_info_pwd" type="id"/>
+    <item name="user_set_stepname" type="id"/>
+    <item name="user_share" type="id"/>
+    <item name="user_tvmg" type="id"/>
+    <item name="video_type" type="id"/>
+    <item name="video_type_bg_0" type="id"/>
+    <item name="video_type_bg_1" type="id"/>
+    <item name="video_type_bg_2" type="id"/>
+    <item name="video_type_bg_3" type="id"/>
+    <item name="video_type_bg_4" type="id"/>
+    <item name="video_type_bg_5" type="id"/>
+    <item name="video_type_bg_6" type="id"/>
+    <item name="video_type_bg_8" type="id"/>
+    <item name="video_type_fl_0" type="id"/>
+    <item name="video_type_fl_1" type="id"/>
+    <item name="video_type_fl_2" type="id"/>
+    <item name="video_type_fl_3" type="id"/>
+    <item name="video_type_fl_4" type="id"/>
+    <item name="video_type_fl_5" type="id"/>
+    <item name="video_type_fl_6" type="id"/>
+    <item name="video_type_fl_8" type="id"/>
+    <item name="video_type_layout" type="id"/>
+    <item name="video_type_log_0" type="id"/>
+    <item name="video_type_log_1" type="id"/>
+    <item name="video_type_log_2" type="id"/>
+    <item name="video_type_log_3" type="id"/>
+    <item name="video_type_log_4" type="id"/>
+    <item name="video_type_log_5" type="id"/>
+    <item name="video_type_log_6" type="id"/>
+    <item name="video_type_log_8" type="id"/>
+    <item name="video_type_post_0" type="id"/>
+    <item name="video_type_post_1" type="id"/>
+    <item name="video_type_post_2" type="id"/>
+    <item name="video_type_post_3" type="id"/>
+    <item name="video_type_post_4" type="id"/>
+    <item name="video_type_post_6" type="id"/>
+    <item name="video_type_post_8" type="id"/>
+    <item name="video_type_refimg_0" type="id"/>
+    <item name="video_type_refimg_1" type="id"/>
+    <item name="video_type_refimg_2" type="id"/>
+    <item name="video_type_refimg_3" type="id"/>
+    <item name="video_type_refimg_4" type="id"/>
+    <item name="video_type_refimg_5" type="id"/>
+    <item name="video_type_text_0" type="id"/>
+    <item name="video_type_text_1" type="id"/>
+    <item name="video_type_text_2" type="id"/>
+    <item name="video_type_text_4" type="id"/>
+    <item name="video_type_text_5" type="id"/>
+    <item name="video_type_text_6" type="id"/>
+    <item name="vod_ctrtop_layout_name_txt" type="id"/>
+    <item name="vod_ctrtop_layout_source_horlist" type="id"/>
+    <item name="vod_player_real_speed" type="id"/>
+    <item name="vod_player_speed_danwei" type="id"/>
+    <item name="vod_player_speed_wenzi" type="id"/>
+    <item name="white_boder" type="id"/>
+    <!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="about_apk_banben">版本号：1.1.1</string>
+    <string name="about_contact1">新浪微博：VST_CN</string>
+    <string name="about_contact2">QQ交流群：132125576</string>
+    <string name="about_contact3">腾讯微信：vst_cn</string>
+    <string name="about_introduce">\tVST全聚合是一套全新的全媒体聚合客户端软件（启动器），采用Java语言编写，适合大部分基于安卓4.0以上盒子、智能电视，VST全聚合是华人用户数最多的聚合平台软件，集合视频点播、网络直播、电视回播、应用程序、我的设置于一身，聚合了国内主流的十八个视频网站的内容，最新影视大片、同步电视剧集、热点新闻、动漫、教育内容应有尽有，Win8 Metro UI风格，只需要遥控器七个按键就能操作观看，极致体验，视觉盛宴，让电视变智能，让娱乐更尽兴。\n\n \tVST小组是一个非盈利性的非商业兴趣小组，主要根据网络各大视频网络内容进行聚合整理，本服务未对内容做存储分发及编辑重压缩处理，所有的影视、歌曲、新闻视频版权归属于原版权所有人所有。如果您认为应用里面的链接的资源侵害了你的合法权益，请通过邮件service@52itv.cn与我们联系。</string>
+    <string name="app_name">　VST全聚合</string>
+    <string name="application">应用程序</string>
+    <string name="back_null">搜索结果为空，请重试……</string>
+    <string name="cancle">取消</string>
+    <string name="check_net_hint">当前网络未连接或链接异常，请检查网络连接状态……</string>
+    <string name="confirm">确认</string>
+    <string name="connect_timeout">网络连接超时</string>
+    <string name="current_page">当前第 </string>
+    <string name="details_cancle">取消</string>
+    <string name="details_choice">选集</string>
+    <string name="details_colection1">收藏</string>
+    <string name="details_colection2">追剧</string>
+    <string name="details_play">播放</string>
+    <string name="details_recommend">推荐观看</string>
+    <string name="dialog_use_net_live_hint">1、启用网络列表必须关联VST账号并在盒子上保持登录状态，已登录此设置方有效\n2、启用之前，请先用电脑在官方网站上添加个人网络播放列表，地址：http://fav.91vst.com\n3、首次启用网络自定义，列表将会自动更新，官方列表和网络自定义各自独立刷新\n4、此功能还在不断完善，使用过程中若遇到各种问题，欢迎到论坛及QQ群反馈</string>
+    <string name="earthnet_hint">使用前请检查网线是否已经正确插入！</string>
+    <string name="exit_greet_ling">凌晨时分，想看恐怖片么？还是早点睡吧！</string>
+    <string name="exit_greet_wan">晚上好，时间还早，多看一部大片，天天更新哦！</string>
+    <string name="exit_greet_xia">下午好，今天睡午觉，我梦见你了，真的。不准流眼泪、流口水！</string>
+    <string name="exit_greet_zao">早上好，看新闻了解世界大事，天天UP!UP!UP!</string>
+    <string name="exit_greet_zhong">中午好，多看片，看好片，少吃点，吃好的。要有梦想，即使遥远。</string>
+    <string name="exit_grret_shang">上午好，你上你的班，我看我的片，我今天闲着无聊！</string>
+    <string name="get_page_data_fail">获取当前页面信息失败，请稍后重试！</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hotestlist">排	行</string>
+    <string name="httpError">连接失败</string>
+    <string name="httpisNull">没有网络</string>
+    <string name="keypad_hint">输入拼音首字母，如《太极》TJ</string>
+    <string name="latest_recommend">最新推荐</string>
+    <string name="latest_recommend_american_text">美剧专区</string>
+    <string name="latest_recommend_arts_text">偶像明星</string>
+    <string name="latest_recommend_cartoon_text">2012愛情片</string>
+    <string name="latest_recommend_education_text">公开课</string>
+    <string name="latest_recommend_film_today_text">今日必看</string>
+    <string name="latest_recommend_news_text">新闻</string>
+    <string name="latest_recommend_tvb_text">最爱TVB港剧</string>
+    <string name="menu_alltype_arts">综艺</string>
+    <string name="menu_alltype_cartoon">动漫</string>
+    <string name="menu_alltype_documentary">记录</string>
+    <string name="menu_alltype_education">教育</string>
+    <string name="menu_alltype_film">电影</string>
+    <string name="menu_alltype_music">音乐</string>
+    <string name="menu_alltype_others">其他</string>
+    <string name="menu_alltype_tv">电视剧</string>
+    <string name="menu_hotnew_Europe">最新欧洲片</string>
+    <string name="menu_hotnew_Hollywood">最新好莱坞</string>
+    <string name="menu_hotnew_chinese">最新华语片</string>
+    <string name="menu_settings">Settings</string>
+    <string name="net_fast_hint">系统将自动配置网络连接，请检查网线是否已插入或者WIFI路由已打开！</string>
+    <string name="net_not_connect">网络未连接</string>
+    <string name="net_setting">网络设置</string>
+    <string name="not_found_this_app">未安装此应用或已卸载……</string>
+    <string name="page_deliver"> 页 / 共 </string>
+    <string name="play_collect">我的收藏</string>
+    <string name="play_collect_collect">收藏</string>
+    <string name="play_collect_played">播放历史</string>
+    <string name="play_collect_played_name">暂无播放记录</string>
+    <string name="play_collect_tv_renewnum">我的追剧</string>
+    <string name="play_collect_tv_tvname">暂无剧集</string>
+    <string name="prepare_search">输入片名拼音的首字母，如《太极》输入TJ,等待0.5秒 后，系统开始搜索......</string>
+    <string name="search_all_line_his">搜索历史</string>
+    <string name="search_all_line_hotkey">热词推荐</string>
+    <string name="search_all_line_tvhint">输入影片名拼音首字母</string>
+    <string name="search_allline">搜	索</string>
+    <string name="search_recent">最近搜索</string>
+    <string name="settings">我的设置</string>
+    <string name="sum">共 </string>
+    <string name="sum_pages"> 页</string>
+    <string name="time_out_hint">网络连接超时，请确认有效的网络访问状态后重试。</string>
+    <string name="toast_app_boot_err">当前应用未安装或已删除……　</string>
+    <string name="toast_app_boot_no">当前位置还没有指定应用程序　</string>
+    <string name="toast_app_choose_err">当前未选中任何应用……　</string>
+    <string name="toast_exit_hint">再按一次退出……　</string>
+    <string name="toast_live_list_unexsit">直播列表更新中……请稍后！　</string>
+    <string name="toast_live_list_unexsit_auto">直播列表尚未更新完成，不能直接进入直播……　</string>
+    <string name="toast_live_list_unexsit_dia">直播列表尚未更新，不能直接进入直播……　</string>
+    <string name="toast_live_no_define">亲，您还没有自定义频道　</string>
+    <string name="toast_live_no_fav">亲，您还没有收藏频道哦　</string>
+    <string name="toast_net_connect_err">亲，网络连接有点问题哦……　</string>
+    <string name="toast_net_disconnect_hint">亲，网络不给力哦　</string>
+    <string name="toast_newsError_tishi">该新闻源无法播放，即将为您播放下一集...</string>
+    <string name="toast_nextset_hint">再按一次播放下一集　</string>
+    <string name="toast_request_page_data_err">请求当前页面数据失败，请稍候重试或者继续！　</string>
+    <string name="toast_set_live_renew_ok">直播列表更新完毕！　</string>
+    <string name="toast_set_login_hint">请先登录用户账户……　</string>
+    <string name="toast_set_login_in">您好像忘记了输入账号和密码或者验证码　</string>
+    <string name="toast_set_regest_input_err">您似乎还没有完善用户名、邮箱和密码等信息！　</string>
+    <string name="toast_source_changed">悟空你又调皮了^_^　</string>
+    <string name="toast_xllx_connect_err">网络超时，稍后重试　</string>
+    <string name="toast_xllx_in_pwd">请输入密码　</string>
+    <string name="toast_xllx_in_uid">请输入用户名　</string>
+    <string name="toast_xllx_in_verify">请输入验证码　</string>
+    <string name="toast_xllx_list_err">获取列表失败　</string>
+    <string name="toast_xllx_pwd_err">密码错误　</string>
+    <string name="toast_xllx_transcoding">正在转码中，暂时不能播放……　</string>
+    <string name="toast_xllx_uid_lock">账户被锁定　</string>
+    <string name="toast_xllx_uid_unexsit">账户不存在　</string>
+    <string name="toast_xllx_uinfo_err">获取用户信息失败,请重试或者重新登录。　</string>
+    <string name="toast_xllx_verify">获取验证码失败,稍后重试……　</string>
+    <string name="tv_show">网络电视</string>
+    <string name="tv_show_cctv">中央频道</string>
+    <string name="tv_show_local">地方频道</string>
+    <string name="tv_show_my_chanle">我的频道</string>
+    <string name="tv_show_province_in">省内</string>
+    <string name="tv_show_regularChancles">常看频道</string>
+    <string name="tv_show_satellites">卫视频道</string>
+    <string name="tv_show_sports">体育</string>
+    <string name="type_details_menu_allarea">全部地区</string>
+    <string name="type_details_menu_alltype">全部类型</string>
+    <string name="type_details_menu_choose">筛选</string>
+    <string name="type_details_menu_hint">按【菜单键】进行搜索筛选</string>
+    <string name="type_details_menu_hotnew">热点新片</string>
+    <string name="type_details_menu_playmost">最多播放</string>
+    <string name="type_details_menu_screentime">上映时间</string>
+    <string name="type_details_menu_tosearch">转到搜索</string>
+    <string name="type_details_new">当前0页 / 共0页</string>
+    <string name="type_details_sum">共 部</string>
+    <string name="user_basic_hint">查看、编辑或修改您的个人信息，包括登录情况、联系方式以及密码修改等。</string>
+    <string name="user_datum_hint">编辑或完善您的个人信息，这里包含更详细的联系方式。</string>
+    <string name="user_exit_hint">退出用户登录状态，下次需要重新登录才能进入个人管理界面。</string>
+    <string name="user_info_hint">查看您的个人信息，包括用户名、邮箱、积分、登录以及注册情况等。</string>
+    <string name="user_pwd_hint">为了您的账户信息安全，我们建议您不定期修改密码。</string>
+    <string name="user_share_hint">这里集中显示用户共享出来的资源，并可查看或使用其他用户的共享资源。</string>
+    <string name="user_tvmg_hint">查看、编辑以及管理您的个人专属电视节目信息，您也可以在这里将它们设置成共享，与广大电视节目爱好者一起分享；部分功能可能需要管理员审核。（建设中……）</string>
+    <string name="user_usetips_hint">（建设中……）</string>
+    <string name="video_type">影视分类</string>
+    <string name="videos">部</string>
+    <string name="wait_for_data_check_net">正在检测网络连接状态……</string>
+    <string name="wait_for_data_synchronization">正在与服务器数据同步……</string>
+    <!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"/>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    <style name="CustomDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="MyDialog" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+    <style name="Player_buf_pro">
+        <item name="android:indeterminateDrawable">@drawable/player_progress_img</item>
+        <item name="android:minWidth">182dp</item>
+        <item name="android:minHeight">182dp</item>
+        <item name="android:maxWidth">182dp</item>
+        <item name="android:maxHeight">182dp</item>
+        <item name="android:indeterminate">false</item>
+    </style>
+    <style name="TextOnMainLayout">
+        <item name="android:textSize">28dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:background">@drawable/hot_text_bg</item>
+        <item name="android:text">离线模式</item>
+        <item name="android:focusable">true</item>
+        <item name="android:visibility">invisible</item>
+    </style>
+    <style name="TextOnMainLayout2">
+        <item name="android:textSize">28dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+    </style>
+    <style name="TextOnMainLayout_new">
+        <item name="android:textSize">28dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:background">@drawable/hot_text_bg</item>
+        <item name="android:focusable">true</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="TitleButton">
+        <item name="android:background">@drawable/title_button_selector</item>
+        <item name="android:textColor">@drawable/title_textcolor_selector</item>
+        <item name="android:textSize">32dp</item>
+    </style>
+    <style name="exit_window_btn">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:gravity">center_vertical|right</item>
+    </style>
+    <style name="keyPadButton">
+        <item name="android:background">@drawable/keypad_button_selector</item>
+        <item name="android:textColor">@drawable/menu_textcolor_selector</item>
+        <item name="android:textSize">32dp</item>
+        <item name="android:layout_width">50dip</item>
+        <item name="android:layout_height">50dip</item>
+        <item name="android:onClick">doClick</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="live_channelList_animation" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/zoomin</item>
+        <item name="android:windowExitAnimation">@anim/live_channellist_exit_anim</item>
+    </style>
+    <style name="marqueeText">
+        <item name="android:textSize">24dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:marqueeRepeatLimit">marquee_forever</item>
+        <item name="android:scrollHorizontally">true</item>
+    </style>
+    <style name="menubutton">
+        <item name="android:background">@drawable/title_button_selector</item>
+        <item name="android:textColor">@drawable/menu_textcolor_selector</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1.0</item>
+        <item name="android:gravity">center</item>
+        <item name="android:focusableInTouchMode">true</item>
+    </style>
+    <style name="search_keybord_full">
+        <item name="android:background">@drawable/keypad_button_selector</item>
+        <item name="android:textColor">@drawable/menu_textcolor_selector</item>
+        <item name="android:textSize">32dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">doClick</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="search_keybord_t9">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">doClick</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+    <style name="search_top">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:focusable">true</item>
+        <item name="android:textColor">@drawable/menu_textcolor_selector</item>
+        <item name="android:textSize">26dp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:background">@drawable/search_top_sel</item>
+    </style>
+    <style name="set_button_leftpart">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:paddingLeft">20dp</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:background">@drawable/set_item_selector</item>
+        <item name="android:textColor">@color/set_button_textcolor</item>
+    </style>
+    <style name="subMenuButton">
+        <item name="android:background">@drawable/submenu_button_selector</item>
+        <item name="android:textColor">@drawable/menu_textcolor_selector</item>
+        <item name="android:textSize">22dp</item>
+        <item name="android:layout_width">168dip</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:gravity">center</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+    <style name="user_info_table">
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/title_button_selector</item>
+        <item name="android:textColor">@drawable/channel_item_textcolor_selector</item>
+        <item name="android:padding">2dp</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

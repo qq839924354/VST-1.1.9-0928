@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="400dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/app_choose_pop_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="@drawable/filter_focus"
+        android:textColor="@color/detail_point"
+        android:textSize="24dp" />
+
+    <ListView
+        android:id="@+id/app_choose_pop_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/app_pop_listbg" />
+
+</LinearLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/app_dia_choose_list.xml -->

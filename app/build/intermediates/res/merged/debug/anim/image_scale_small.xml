@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scale xmlns:android="http://schemas.android.com/apk/res/android"
+    android:duration="100"
+    android:fromXScale="1.12"
+    android:fromYScale="1.12"
+    android:interpolator="@android:anim/decelerate_interpolator"
+    android:pivotX="50%"
+    android:pivotY="50%"
+    android:toXScale="1.0"
+    android:toYScale="1.0" >
+
+</scale><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/anim/image_scale_small.xml -->

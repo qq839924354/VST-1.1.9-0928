@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/video_detail_key_bg"
+    android:orientation="horizontal"
+    android:paddingTop="40dip" >
+
+    <ListView
+        android:id="@+id/details_key_list"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="40dip"
+        android:layout_weight="1.0"/>
+
+    <GridView
+        android:id="@+id/details_key_grid"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dip"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip"
+        android:layout_weight="1.0"
+        android:numColumns="4"
+        android:verticalSpacing="5dip" />
+
+</LinearLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/video_details_choose_arts.xml -->

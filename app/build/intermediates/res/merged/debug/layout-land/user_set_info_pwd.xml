@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="440dp"
+    android:layout_height="480dp"
+    android:background="@drawable/setup_bg_left"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@id/user_set_info_pwd_last"
+        style="@style/set_button_leftpart"
+        android:text="原始密码" />
+
+    <Button
+        android:id="@id/user_set_info_pwd_new1"
+        style="@style/set_button_leftpart"
+        android:layout_marginTop="60dp"
+        android:text="新密码" />
+
+    <Button
+        android:id="@id/user_set_info_pwd_new2"
+        style="@style/set_button_leftpart"
+        android:layout_marginTop="120dp"
+        android:text="确认密码" />
+
+</FrameLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/user_set_info_pwd.xml -->

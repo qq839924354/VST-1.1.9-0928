@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dip"
+    android:paddingLeft="5dp"
+    android:background="@drawable/live_channel_list_item_bg"
+    android:ellipsize="marquee"
+    android:gravity="center_vertical"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:singleLine="true"
+    android:textColor="@drawable/art_item_textcolor_selector"
+    android:textSize="24dp" />
+<!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/video_details_choose_arts_item.xml -->

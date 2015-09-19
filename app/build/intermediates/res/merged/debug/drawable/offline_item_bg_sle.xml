@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/item214x120_h" android:state_focused="true"/>
+    <item android:drawable="@drawable/item214x120_h" android:state_pressed="true"/>
+    <item android:drawable="@drawable/item214x120_h" android:state_selected="true"/>
+    <item android:drawable="@drawable/empty_frame_bg"/>
+
+</selector><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/drawable/offline_item_bg_sle.xml -->

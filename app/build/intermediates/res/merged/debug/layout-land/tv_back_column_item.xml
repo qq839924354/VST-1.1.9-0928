@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="446dip"
+    android:layout_height="50dip"
+    android:background="@drawable/listview_item_bg_selector" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dip"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/tv_back_time"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:text="12:34"
+            android:textColor="@drawable/channel_item_textcolor_selector"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_back_name"
+            android:layout_width="550dip"
+            android:layout_height="50dip"
+            android:ellipsize="marquee"
+            android:gravity="center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text="这里是栏目的名称"
+            android:textColor="@drawable/channel_item_textcolor_selector"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/tv_back_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical|right"
+        android:layout_marginRight="10dip"
+        android:src="@drawable/huikan" />
+
+</FrameLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/tv_back_column_item.xml -->

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            style="@style/search_keybord_t9"
+            android:background="@drawable/t9_1_sel"
+            android:tag="1" />
+
+        <ImageButton
+            style="@style/search_keybord_t9"
+            android:background="@drawable/t9_abc2_sel"
+            android:tag="2" />
+
+        <ImageButton
+            style="@style/search_keybord_t9"
+            android:background="@drawable/t9_def3_sel"
+            android:tag="3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            style="@style/search_keybord_t9"
+            android:background="@drawable/t9_ghi4_sel"
+            android:tag="4" />
+
+        <ImageButton
+            style="@style/search_keybord_t9"
+            android:background="@drawable/t9_jkl5_sel"
+            android:tag="5" />
+
+        <ImageButton
+            style="@style/search_keybord_t9"
+            android:background="@drawable/t9_mno6_sel"
+            android:tag="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            style="@style/search_keybord_t9"
+            android:background="@drawable/t9_pqrs7_sel"
+            android:tag="7" />
+
+        <ImageButton
+            style="@style/search_keybord_t9"
+            android:background="@drawable/t9_tuv8_sel"
+            android:tag="8" />
+
+        <ImageButton
+            style="@style/search_keybord_t9"
+            android:background="@drawable/t9_wxyz9_sel"
+            android:tag="9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@id/search_keybord_t9_clear"
+            style="@style/search_keybord_t9"
+            android:background="@drawable/t9_clear_sel" />
+
+        <ImageButton
+            style="@style/search_keybord_t9"
+            android:background="@drawable/t9_0_sel"
+            android:tag="0" />
+
+        <ImageButton
+            android:id="@id/search_keybord_t9_del"
+            style="@style/search_keybord_t9"
+            android:background="@drawable/t9_del_sel" />
+    </LinearLayout>
+
+</LinearLayout>

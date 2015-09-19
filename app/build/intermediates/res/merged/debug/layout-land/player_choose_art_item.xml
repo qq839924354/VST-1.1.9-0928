@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/player_choose_text"
+    android:layout_width="620dp"
+    android:layout_height="45dp"
+    android:background="@drawable/menu_bg_selector"
+    android:ellipsize="marquee"
+    android:gravity="center_vertical"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:singleLine="true"
+    android:textColor="@color/channel_list_item_text"
+    android:textSize="28dp" />
+<!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/player_choose_art_item.xml -->

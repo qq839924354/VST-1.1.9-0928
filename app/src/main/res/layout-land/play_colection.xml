@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp" >
+
+    <ImageView
+        android:id="@id/play_collect_reflected_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="383dp" />
+
+    <RelativeLayout
+        android:id="@id/play_colection_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:id="@id/play_collect_fl_0"
+            android:layout_width="564dp"
+            android:layout_height="544dp" >
+
+            <ImageView
+                android:id="@id/play_collect_bg_0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp"
+                android:src="@drawable/shadow_big_left" />
+
+            <ImageView
+                android:id="@id/play_collect_post_0"
+                android:layout_width="264dp"
+                android:layout_height="405dp"
+                android:layout_marginLeft="114dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@id/play_collect"
+                android:scaleType="fitXY"
+                android:src="@drawable/play_zhuiju_empty" />
+
+            <ImageView
+                android:id="@id/play_collect_info_0"
+                android:layout_width="264dp"
+                android:layout_height="405dp"
+                android:layout_marginLeft="114dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/play_zhuiju" />
+
+            <LinearLayout
+                android:layout_width="264dip"
+                android:layout_height="80dip"
+                android:layout_marginLeft="114dp"
+                android:layout_marginTop="338dp"
+                android:padding="10dip" >
+
+                <TextView
+                    android:id="@+id/play_collect_tv_text_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:hint="0"
+                    android:padding="5dip"
+                    android:textColor="@color/white"
+                    android:textSize="26dip" />
+
+                <ImageView
+                    android:layout_width="1dip"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dip"
+                    android:background="@color/green" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dip"
+                        android:text="@string/play_collect_tv_renewnum"
+                        android:textColor="@color/white"
+                        android:textSize="22dip" />
+
+                    <TextView
+                        android:id="@+id/play_collect_tv_text_tvname"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="7dip"
+                        android:hint="@string/play_collect_tv_tvname"
+                        android:textColor="@color/dark"
+                        android:textSize="20dip" />
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/play_collect_fl_1"
+            android:layout_width="624dp"
+            android:layout_height="544dp"
+            android:layout_marginLeft="209dp" >
+
+            <ImageView
+                android:id="@id/play_collect_bg_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shadow_big_center" />
+
+            <ImageView
+                android:id="@id/play_collect_post_1"
+                android:layout_width="275dp"
+                android:layout_height="405dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@id/play_collect"
+                android:scaleType="fitXY"
+                android:src="@drawable/play_history_empty" />
+
+            <ImageView
+                android:id="@id/play_collect_info_1"
+                android:layout_width="275dp"
+                android:layout_height="405dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/play_history" />
+
+            <LinearLayout
+                android:layout_width="275dip"
+                android:layout_height="80dip"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="345dp"
+                android:orientation="vertical"
+                android:padding="10dip" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/play_collect_played"
+                    android:textColor="@color/white"
+                    android:textSize="22dip" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/play_collect_fl_2"
+            android:layout_width="564dp"
+            android:layout_height="544dp"
+            android:layout_marginLeft="490dp" >
+
+            <ImageView
+                android:id="@id/play_collect_bg_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shadow_big_right" />
+
+            <ImageView
+                android:id="@id/play_collect_post_2"
+                android:layout_width="275dp"
+                android:layout_height="405dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@id/play_collect"
+                android:scaleType="fitXY"
+                android:src="@drawable/play_collect_empty" />
+
+            <ImageView
+                android:id="@id/play_collect_info_2"
+                android:layout_width="275dp"
+                android:layout_height="405dp"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="20dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/play_collect" />
+
+            <LinearLayout
+                android:layout_width="275dip"
+                android:layout_height="80dip"
+                android:layout_marginLeft="175dp"
+                android:layout_marginTop="345dp"
+                android:orientation="vertical"
+                android:paddingBottom="5dp"
+                android:paddingLeft="10dip"
+                android:paddingRight="5dp"
+                android:paddingTop="5dp" >
+
+                <TextView
+                    android:id="@+id/play_collect_collected_count"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="0"
+                    android:textColor="@color/white"
+                    android:textSize="26dip" />
+
+                <ImageView
+                    android:layout_width="50dip"
+                    android:layout_height="1dip"
+                    android:background="@color/green" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/play_collect_collect"
+                    android:textColor="@color/white"
+                    android:textSize="24dip" />
+            </LinearLayout>
+        </FrameLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@id/white_boder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_border"
+        android:visibility="invisible" />
+
+</FrameLayout>

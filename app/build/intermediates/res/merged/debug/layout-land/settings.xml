@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="60dp"
+    android:paddingRight="60dp"
+    android:paddingTop="30dp" >
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="425dp" >
+
+        <ImageView
+            android:id="@id/set_refimg_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:id="@id/set_refimg_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="184dip" />
+
+        <ImageView
+            android:id="@id/set_refimg_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="389dip" />
+
+        <ImageView
+            android:id="@id/set_refimg_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="622dip" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@id/settings_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:id="@id/set_server_fl"
+            android:layout_width="399dp"
+            android:layout_height="397dp"
+            android:layout_marginLeft="148dp" >
+
+            <ImageView
+                android:id="@id/set_server_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/shadow_left_top" />
+
+            <ImageView
+                android:id="@id/set_server_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@id/settings"
+                android:src="@drawable/set_server_200" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="170dp"
+                android:text="服务器选择"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/set_speed_fl"
+            android:layout_width="555dp"
+            android:layout_height="377dp"
+            android:layout_marginLeft="184dp" >
+
+            <ImageView
+                android:id="@id/set_speed_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/shadow_top_center" />
+
+            <ImageView
+                android:id="@id/set_speed_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@id/settings"
+                android:src="@drawable/testspeet_setup_200" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="170dp"
+                android:text="速度测试"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/set_vod_fl"
+            android:layout_width="555dp"
+            android:layout_height="377dp"
+            android:layout_marginLeft="389dp" >
+
+            <ImageView
+                android:id="@id/set_vod_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/shadow_top_center" />
+
+            <ImageView
+                android:id="@id/set_vod_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusUp="@id/settings"
+                android:src="@drawable/vod_setup_200" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="170dp"
+                android:text="播放首选项"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/set_weather_fl"
+            android:layout_width="399dp"
+            android:layout_height="397dp"
+            android:layout_marginLeft="605dp" >
+
+            <ImageView
+                android:id="@id/set_weather_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/shadow_right_top" />
+
+            <ImageView
+                android:id="@id/set_weather_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="179dp"
+                android:layout_marginTop="20dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusRight="@id/settings"
+                android:nextFocusUp="@id/settings"
+                android:src="@drawable/weather_setup_200" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="230dp"
+                android:layout_marginTop="170dp"
+                android:text="天气设置"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/set_user_fl"
+            android:layout_width="521dp"
+            android:layout_height="438dp"
+            android:layout_marginTop="105dp" >
+
+            <ImageView
+                android:id="@id/set_user_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shadow_left_bottom" />
+
+            <ImageView
+                android:id="@id/set_user_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="168dp"
+                android:layout_marginTop="120dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:src="@drawable/reg_setup_200" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="270dp"
+                android:text="用户管理"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/set_clear_fl"
+            android:layout_width="587dp"
+            android:layout_height="438dp"
+            android:layout_marginLeft="184dp"
+            android:layout_marginTop="105dp" >
+
+            <ImageView
+                android:id="@id/set_clear_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shadow_bottom_center" />
+
+            <ImageView
+                android:id="@id/set_clear_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="120dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:src="@drawable/claer_setup_200" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="270dp"
+                android:text="记录清除"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/set_other_fl"
+            android:layout_width="587dp"
+            android:layout_height="438dp"
+            android:layout_marginLeft="389dp"
+            android:layout_marginTop="105dp" >
+
+            <ImageView
+                android:id="@id/set_other_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shadow_bottom_center" />
+
+            <ImageView
+                android:id="@id/set_other_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="190dp"
+                android:layout_marginTop="120dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:src="@drawable/other_setup_200" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="270dp"
+                android:text="其他设置"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@id/set_about_fl"
+            android:layout_width="521dp"
+            android:layout_height="438dp"
+            android:layout_marginLeft="622dp"
+            android:layout_marginTop="105dp" >
+
+            <ImageView
+                android:id="@id/set_about_bg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/shadow_right_bottom" />
+
+            <ImageView
+                android:id="@id/set_about_iv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="162dp"
+                android:layout_marginTop="120dp"
+                android:clickable="true"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:nextFocusRight="@id/settings"
+                android:src="@drawable/about_setup_200" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="270dp"
+                android:text="关于我们"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+        </FrameLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@id/white_boder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_border"
+        android:visibility="invisible" />
+
+</FrameLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/settings.xml -->

@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <FrameLayout
+        android:id="@id/app_fl_0"
+        android:layout_width="399dp"
+        android:layout_height="397dp"
+        android:layout_marginLeft="108dp" >
+
+        <ImageView
+            android:id="@id/app_bg_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/shadow_left_top" />
+
+        <ImageView
+            android:id="@id/app_poster_0"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:nextFocusUp="@id/application" />
+
+        <ImageView
+            android:id="@id/app_new_0"
+            android:layout_width="54dip"
+            android:layout_height="45dip"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/app_name_0"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="180dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@id/app_fl_1"
+        android:layout_width="555dp"
+        android:layout_height="377dp"
+        android:layout_marginLeft="144dp" >
+
+        <ImageView
+            android:id="@id/app_bg_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/shadow_top_center" />
+
+        <ImageView
+            android:id="@id/app_poster_1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:nextFocusUp="@id/application"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@id/app_new_1"
+            android:layout_width="54dip"
+            android:layout_height="45dip"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="20dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/app_name_1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="180dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@id/app_fl_2"
+        android:layout_width="555dp"
+        android:layout_height="377dp"
+        android:layout_marginLeft="349dp" >
+
+        <ImageView
+            android:id="@id/app_bg_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/shadow_top_center" />
+
+        <ImageView
+            android:id="@id/app_poster_2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:nextFocusUp="@id/application"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@id/app_new_2"
+            android:layout_width="54dip"
+            android:layout_height="45dip"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="20dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/app_name_2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="180dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@id/app_fl_3"
+        android:layout_width="555dp"
+        android:layout_height="377dp"
+        android:layout_marginLeft="554dp" >
+
+        <ImageView
+            android:id="@id/app_bg_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/shadow_top_center" />
+
+        <ImageView
+            android:id="@id/app_poster_3"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:nextFocusUp="@id/application"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@id/app_new_3"
+            android:layout_width="54dip"
+            android:layout_height="45dip"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="20dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/app_name_3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="180dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@id/app_fl_4"
+        android:layout_width="399dp"
+        android:layout_height="397dp"
+        android:layout_marginLeft="770dp" >
+
+        <ImageView
+            android:id="@id/app_bg_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/shadow_right_top" />
+
+        <ImageView
+            android:id="@id/app_poster_4"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="179dp"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:nextFocusUp="@id/application"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@id/app_new_4"
+            android:layout_width="54dip"
+            android:layout_height="45dip"
+            android:layout_marginLeft="179dp"
+            android:layout_marginTop="20dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/app_name_4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="179dp"
+            android:layout_marginTop="180dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@id/app_fl_5"
+        android:layout_width="481dp"
+        android:layout_height="438dp"
+        android:layout_marginTop="105dp" >
+
+        <ImageView
+            android:id="@id/app_bg_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shadow_left_bottom_a" />
+
+        <ImageView
+            android:id="@id/app_poster_5"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="120dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@id/app_new_5"
+            android:layout_width="54dip"
+            android:layout_height="45dip"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="120dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/app_name_5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="280dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@id/app_fl_6"
+        android:layout_width="587dp"
+        android:layout_height="438dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="105dp" >
+
+        <ImageView
+            android:id="@id/app_bg_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shadow_bottom_center" />
+
+        <ImageView
+            android:id="@id/app_poster_6"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="120dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@id/app_new_6"
+            android:layout_width="54dip"
+            android:layout_height="45dip"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="120dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/app_name_6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="280dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@id/app_fl_7"
+        android:layout_width="587dp"
+        android:layout_height="438dp"
+        android:layout_marginLeft="349dp"
+        android:layout_marginTop="105dp" >
+
+        <ImageView
+            android:id="@id/app_bg_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shadow_bottom_center" />
+
+        <ImageView
+            android:id="@id/app_poster_7"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="120dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@id/app_new_7"
+            android:layout_width="54dip"
+            android:layout_height="45dip"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="120dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/app_name_7"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="280dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@id/app_fl_8"
+        android:layout_width="587dp"
+        android:layout_height="438dp"
+        android:layout_marginLeft="554dp"
+        android:layout_marginTop="105dp" >
+
+        <ImageView
+            android:id="@id/app_bg_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shadow_bottom_center" />
+
+        <ImageView
+            android:id="@id/app_poster_8"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="120dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true" />
+
+        <ImageView
+            android:id="@id/app_new_8"
+            android:layout_width="54dip"
+            android:layout_height="45dip"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="120dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/app_name_8"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="280dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:scaleType="fitXY"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@id/app_fl_9"
+        android:layout_width="481dp"
+        android:layout_height="438dp"
+        android:layout_marginLeft="787dp"
+        android:layout_marginTop="105dp" >
+
+        <ImageView
+            android:id="@id/app_bg_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/shadow_right_bottom_a" />
+
+        <ImageView
+            android:id="@id/app_poster_9"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="162dp"
+            android:layout_marginTop="120dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:scaleType="fitXY" />
+
+        <ImageView
+            android:id="@id/app_new_9"
+            android:layout_width="54dip"
+            android:layout_height="45dip"
+            android:layout_marginLeft="162dp"
+            android:layout_marginTop="120dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/app_name_9"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="162dp"
+            android:layout_marginTop="280dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+    </FrameLayout>
+</RelativeLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/application_top.xml -->

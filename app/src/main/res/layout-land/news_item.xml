@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="400dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/listview_item_bg_selector" >
+
+    <ImageView
+        android:id="@id/news_img"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/osd_pause_n" />
+
+    <TextView
+        android:id="@id/news_text"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:ellipsize="marquee"
+        android:gravity="center_vertical"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="@color/channel_list_item_text"
+        android:textSize="24dp" />
+
+</LinearLayout>

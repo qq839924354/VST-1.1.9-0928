@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <translate 
+        android:fromYDelta="100%p"
+        android:toYDelta="0"
+        android:duration="1000"/>
+    <alpha
+        android:fromAlpha="0.4"
+        android:toAlpha="1"
+        android:duration="1000" />
+
+</set><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/anim/vod_wait_bot_fade_in.xml -->

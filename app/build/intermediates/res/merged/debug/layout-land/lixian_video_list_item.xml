@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lixian_videolist_item_bg"
+    android:gravity="center_vertical"
+    android:paddingLeft="10dp"
+    android:orientation="horizontal" >
+
+    <Space
+        android:id="@+id/lixian_item_space"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/lixian_videolist_item_filetype"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:src="@drawable/lixian_filetype_videofile" />
+
+    <TextView
+        android:id="@+id/lixian_videolist_item_filename"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:layout_weight="3"
+        android:ellipsize="marquee"
+        android:textSize="24dp"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/lixian_videolist_item_translate"
+        android:layout_width="0dp"
+        android:textSize="24dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:layout_weight="1" />
+
+    <TextView
+        android:id="@+id/lixian_videolist_item_duration"
+        android:layout_width="0dp"
+        android:textSize="24dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:layout_weight="1" />
+    <!--
+    <TextView
+        android:id="@+id/lixian_videolist_item_createtime"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dip"
+        android:layout_weight="1" />
+    -->
+
+</LinearLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/lixian_video_list_item.xml -->

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:paddingRight="21dp"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@id/subject_ref"
+        android:layout_width="160dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23dip"
+        android:layout_x="21dip"
+        android:layout_y="256dip"
+        android:scaleType="fitXY" />
+
+    <FrameLayout
+        android:id="@id/subject_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dip"
+        android:layout_y="0dip"
+        android:background="@drawable/video_bg_selector" >
+
+        <ImageView
+            android:id="@id/subject_poster"
+            android:layout_width="160dip"
+            android:layout_height="235dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_film_img" />
+
+        <TextView
+            android:id="@id/subject_name"
+            android:layout_width="160dip"
+            android:layout_height="40dip"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="@drawable/video_textbg_selector"
+            android:ellipsize="marquee"
+            android:focusableInTouchMode="true"
+            android:gravity="center_horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+    </FrameLayout>
+
+</AbsoluteLayout>

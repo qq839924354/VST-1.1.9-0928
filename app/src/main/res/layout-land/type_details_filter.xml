@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:src="@drawable/fliter_line_hor" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/fliter_bg"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@id/filter_rank"
+            android:layout_width="182dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/filter_line_ver" />
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="排行"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="1dp"
+                    android:src="@drawable/fliter_line_hor" />
+
+                <ListView
+                    android:id="@id/filter_list_rank"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="#000000" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/filter_line_ver" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/filter_area"
+            android:layout_width="181dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="地区"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="1dp"
+                    android:src="@drawable/fliter_line_hor" />
+
+                <ListView
+                    android:id="@id/filter_list_area"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="#000000" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/filter_line_ver" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/filter_sharp"
+            android:layout_width="181dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="清晰度"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="1dp"
+                    android:src="@drawable/fliter_line_hor" />
+
+                <ListView
+                    android:id="@id/filter_list_sharp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="#000000" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/filter_line_ver" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/filter_type"
+            android:layout_width="181dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="类型"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="1dp"
+                    android:src="@drawable/fliter_line_hor" />
+
+                <ListView
+                    android:id="@id/filter_list_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="#000000" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/filter_line_ver" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/filter_year"
+            android:layout_width="181dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="年代"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="1dp"
+                    android:src="@drawable/fliter_line_hor" />
+
+                <ListView
+                    android:id="@id/filter_list_year"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="#000000" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/filter_line_ver" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/filter_sort"
+            android:layout_width="181dp"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="60dp"
+                    android:gravity="center"
+                    android:text="排序"
+                    android:textColor="@color/white"
+                    android:textSize="30dp" />
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="1dp"
+                    android:src="@drawable/fliter_line_hor" />
+
+                <ListView
+                    android:id="@id/filter_list_sort"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="#000000" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/filter_line_ver" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

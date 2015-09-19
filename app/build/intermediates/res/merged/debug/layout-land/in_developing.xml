@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingTop="50dip"
+    android:text="开发中……"
+    android:textColor="@color/white"
+    android:textSize="26dp" />
+<!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/in_developing.xml -->

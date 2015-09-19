@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/video_details_bg" >
+
+<!--     <HorizontalScrollView -->
+<!--         android:id="@id/subject_pageBG_hs" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="match_parent" -->
+<!--         android:scrollbars="none" > -->
+
+        <ImageView
+            android:id="@id/subject_pageBG"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:layout_height="match_parent" />
+<!--     </HorizontalScrollView> -->
+
+    <HorizontalScrollView
+        android:id="@id/subject_container_hs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:id="@id/subject_container"
+            android:layout_width="wrap_content"
+            android:layout_height="400dp"
+            android:layout_gravity="bottom"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="525dp"
+            android:paddingRight="525dp" />
+    </HorizontalScrollView>
+
+</FrameLayout>

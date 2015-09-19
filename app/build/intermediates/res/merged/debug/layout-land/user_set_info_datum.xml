@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="440dp"
+    android:layout_height="480dp"
+    android:background="@drawable/setup_bg_left"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@id/user_set_info_datum_sex"
+        style="@style/set_button_leftpart"
+        android:text="性别" />
+
+    <Button
+        android:id="@id/user_set_info_datum_qq"
+        style="@style/set_button_leftpart"
+        android:layout_marginTop="60dp"
+        android:text="QQ" />
+
+    <Button
+        android:id="@id/user_set_info_datum_name"
+        style="@style/set_button_leftpart"
+        android:layout_marginTop="120dp"
+        android:text="姓名" />
+
+    <Button
+        android:id="@id/user_set_info_datum_add"
+        style="@style/set_button_leftpart"
+        android:layout_marginTop="180dp"
+        android:text="地址" />
+
+    <Button
+        android:id="@id/user_set_info_datum_card"
+        style="@style/set_button_leftpart"
+        android:layout_marginTop="240dp"
+        android:text="身份证" />
+
+    <Button
+        android:id="@id/user_set_info_datum_phone"
+        style="@style/set_button_leftpart"
+        android:layout_marginTop="300dp"
+        android:text="手机号码" />
+
+    <Button
+        android:id="@id/user_set_info_datum_zip"
+        style="@style/set_button_leftpart"
+        android:layout_marginTop="360dp"
+        android:text="邮政编码" />
+
+</FrameLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/user_set_info_datum.xml -->

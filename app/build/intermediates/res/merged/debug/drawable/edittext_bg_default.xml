@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <solid android:color="#84ffffff" />
+
+    <padding
+        android:bottom="5dip"
+        android:left="10dip"
+        android:right="10dip"
+        android:top="5dip" />
+
+    <stroke
+        android:width="2px"
+        android:color="#ffffffff" />
+
+    <corners android:radius="2dp" />
+
+</shape><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/drawable/edittext_bg_default.xml -->

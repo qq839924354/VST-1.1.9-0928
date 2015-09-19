@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/launcher52_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/top_system_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:textColor="#999999"
+            android:textSize="28dp"
+            android:textStyle="normal" />
+
+        <ImageView
+            android:id="@+id/top_net_type"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="18dp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_weight="1.0" />
+
+        <TextView
+            android:id="@+id/top_weather_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:singleLine="true"
+            android:textColor="#999999"
+            android:textSize="25dp" />
+
+        <ImageView
+            android:id="@+id/top_weather_log1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitCenter" />
+
+        <ImageView
+            android:id="@+id/top_weather_log2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="16dp"
+            android:scaleType="fitCenter" />
+
+        <TextView
+            android:id="@+id/top_weather_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center_horizontal"
+            android:minWidth="150dp"
+            android:singleLine="true"
+            android:textColor="#999999"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@id/title_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dip"
+        android:orientation="horizontal"
+        android:paddingLeft="60dip"
+        android:paddingRight="60dip" >
+
+        <RadioButton
+            android:id="@id/latest_recommend"
+            style="@style/TitleButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/latest_recommend" />
+
+        <RadioButton
+            android:id="@id/tv_show"
+            style="@style/TitleButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/tv_show" />
+
+        <RadioButton
+            android:id="@id/video_type"
+            style="@style/TitleButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/video_type" />
+
+        <RadioButton
+            android:id="@id/play_collect"
+            style="@style/TitleButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/play_collect" />
+
+        <RadioButton
+            android:id="@id/application"
+            style="@style/TitleButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/application" />
+
+        <RadioButton
+            android:id="@id/settings"
+            style="@style/TitleButton"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:button="@null"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:text="@string/settings" />
+    </RadioGroup>
+
+    <android.support.v4.view.ViewPager
+        android:id="@id/main_layout_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:id="@id/main_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/main_searcch_sel" />
+
+</RelativeLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/main_layout_52itv.xml -->

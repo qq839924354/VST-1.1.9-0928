@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/video_details_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="35dip"
+        android:paddingRight="35dip"
+        android:paddingTop="10dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="新闻资讯"
+                android:textColor="#b2b2b2"
+                android:textSize="30dp" />
+
+            <ImageView
+                android:layout_width="2dip"
+                android:layout_height="35dp"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="5dip"
+                android:background="#b2b2b2" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="5dip"
+            android:layout_marginTop="5dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/line760" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@id/news_tv"
+        android:layout_width="770dp"
+        android:layout_height="530dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:scaleType="fitStart"
+        android:src="@drawable/tv_bg_default" />
+
+    <TextView
+        android:id="@id/news_current_play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="540dp"
+        android:textColor="@color/white"
+        android:textSize="24dp" />
+
+    <ListView
+        android:id="@id/news_list"
+        android:layout_width="405dp"
+        android:layout_height="405dp"
+        android:layout_marginLeft="740dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/tv_back_446x406" />
+    <ImageView 
+        android:id="@+id/news_video_black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/black"
+        android:visibility="invisible"/>
+
+    <com.vst.itv52.v1.player.VideoView
+        android:id="@id/news_video"
+        android:layout_width="612dip"
+        android:layout_height="346dip"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="110dp" />
+
+</FrameLayout>

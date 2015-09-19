@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_focused="true"
+        android:drawable="@drawable/detailsource_bg_h"></item>
+    <item android:drawable="@drawable/empty_frame_bg" />
+
+</selector><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/drawable/detailsource_bg_s.xml -->

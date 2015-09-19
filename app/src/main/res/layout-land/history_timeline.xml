@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/video_details_bg"
+    android:orientation="vertical"
+    android:paddingLeft="35dip"
+    android:paddingRight="35dip"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="播放历史"
+        android:textColor="#b2b2b2"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/line760" />
+
+    <TextView
+        android:id="@+id/head_timeline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/white"
+        android:textSize="26dp" />
+
+    <ListView
+        android:id="@id/history_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:divider="@drawable/line1280"
+        android:dividerHeight="1dp"
+        android:focusableInTouchMode="true"
+        android:scrollbars="none" />
+
+</LinearLayout>

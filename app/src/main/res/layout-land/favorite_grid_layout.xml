@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/video_details_bg"
+    android:orientation="vertical"
+    android:paddingLeft="35dip"
+    android:paddingRight="35dip"
+    android:paddingTop="10dp" >
+
+    <TextView
+        android:id="@+id/favorite_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="#b2b2b2"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/fav_choose_mult"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:background="@drawable/video_details_btn_selector"
+            android:gravity="center"
+            android:text="多选"
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+
+        <LinearLayout
+            android:id="@+id/fav_choose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <Button
+                android:id="@+id/fav_choose_all"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/video_details_btn_selector"
+                android:gravity="center"
+                android:text="全选"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+            <Button
+                android:id="@+id/fav_choose_del"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/video_details_btn_selector"
+                android:gravity="center"
+                android:text="删除"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+
+            <Button
+                android:id="@+id/fav_choose_exit"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/video_details_btn_selector"
+                android:gravity="center"
+                android:text="退出选择"
+                android:textColor="@color/white"
+                android:textSize="24dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1dip"
+        android:layout_marginBottom="5dip"
+        android:layout_marginTop="5dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/line760" />
+
+    <GridView
+        android:id="@+id/favorite_grid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:focusableInTouchMode="true"
+        android:numColumns="6"
+        android:scrollbars="none"
+        android:verticalSpacing="20dip" />
+
+    <TextView
+        android:id="@+id/fav_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="28dp"
+        android:visibility="gone" />
+
+</LinearLayout>

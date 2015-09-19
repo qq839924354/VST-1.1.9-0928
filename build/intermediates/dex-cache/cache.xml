@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\mywork\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0-ce39e8a61cf2301c0900e62aeb2411dc2fbc5930.jar" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\libs\commons-logging-api-1.0.4.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="544f72427e94a5c55b65a9b81c55c54059b4f993">
+        <dex dex="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\build\intermediates\pre-dexed\debug\commons-logging-api-1.0.4-6b72d5ccc2d979f85bde54aa6b06da922126f046.jar" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\libs\google_bitmapfun_old.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1ddb0eefab163b2527b47f936ce0c8fc28c9aa34">
+        <dex dex="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\build\intermediates\pre-dexed\debug\google_bitmapfun_old-00c80eb051da5f6d661cce536befbd1dc86f1b2a.jar" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\libs\afinal_libraty.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57d6d1542588f6463715ac40cba2216732d71705">
+        <dex dex="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\build\intermediates\pre-dexed\debug\afinal_libraty-7c7945493687b84683c3212c1793b87f11eaafc5.jar" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\libs\java-unrar-0.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9d96e83014b2b01b42c0d73d25d3406782eb06fe">
+        <dex dex="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\build\intermediates\pre-dexed\debug\java-unrar-0.2-e27cd07643c0fb2d88faee9ebaa3ed87c875788d.jar" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\libs\jackson-all-1.9.11.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="62246d59c8188052433b28c5fbd50e4e71804f26">
+        <dex dex="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\build\intermediates\pre-dexed\debug\jackson-all-1.9.11-d986fab7c1ba7bed4a03808ef94a9ad4bd0d9f5a.jar" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\libs\dom4j-1.6.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5d3ccc056b6f056dbf0dddfdf43894b9065a8f94">
+        <dex dex="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\build\intermediates\pre-dexed\debug\dom4j-1.6.1-66f639f171747c7acf314bb26ba2097aeb20c881.jar" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\libs\umeng_sdk.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="23177538dc9b098fa33136088d27776ff9bfb1cd">
+        <dex dex="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\build\intermediates\pre-dexed\debug\umeng_sdk-7fdb489499085d275d3e1b74313a6a7894af4bb4.jar" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\libs\httpmime-4.2.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dca10d76e8f2bf621608dc3c13ca5aab415cf5af">
+        <dex dex="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\build\intermediates\pre-dexed\debug\httpmime-4.2.3-3e30f1982d69637ff2176d48899b0cfe867c9b59.jar" />
+    </item>
+    <item
+        jar="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\libs\ant.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8acff3fb57e74bc062d4675d9dcfaffa0d524972">
+        <dex dex="C:\Users\lenovo\StudioProjects\VST-1.1.9-0928\app\build\intermediates\pre-dexed\debug\ant-eb565c0d760555c090dbe87dba680c770c6cfc76.jar" />
+    </item>
+
+</items>

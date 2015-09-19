@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:radius="3dp" />
+
+    <solid android:color="#ff00aaff" />
+
+    <stroke
+        android:width="2dip"
+        android:color="#ffddaa00" />
+
+</shape><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/drawable/detailsource_bg_h.xml -->

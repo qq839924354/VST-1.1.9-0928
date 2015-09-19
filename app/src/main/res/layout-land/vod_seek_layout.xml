@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/osd_seek_bg" >
+
+        <SeekBar
+            android:id="@+id/vod_seek_new_seekbar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="1000dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="76dp"
+            android:layout_marginTop="14dp"
+            android:max="1000"
+            android:progress="0"
+            android:progressDrawable="@drawable/vod_seek_new"
+            android:secondaryProgress="0"
+            android:thumb="@drawable/empty_frame_bg" />
+
+        <TextView
+            android:id="@+id/vod_seek_new_curr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="12dp"
+            android:text="00:00:00"
+            android:textColor="#3f97ff"
+            android:textSize="21dp" />
+
+        <TextView
+            android:id="@+id/vod_seek_new_dura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="985dp"
+            android:layout_marginTop="12dp"
+            android:text="00:00:00"
+            android:textColor="#3f97ff"
+            android:textSize="21dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/play_bottom_tip_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/seek_pop"
+        android:gravity="center"
+        android:text="00:00:00"
+        android:textColor="@android:color/black"
+        android:textSize="24dp"
+        android:visibility="invisible" />
+
+</FrameLayout>

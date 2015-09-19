@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/details_replay_h" android:state_focused="true"/>
+    <item android:drawable="@drawable/details_replay_h" android:state_pressed="true"/>
+    <item android:drawable="@drawable/details_replay_n"/>
+
+</selector><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/drawable/details_replay_sel.xml -->

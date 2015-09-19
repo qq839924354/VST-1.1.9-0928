@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/video_detail_key_bg"
+    android:orientation="vertical" >
+
+    <!-- 
+    <TextView
+        android:id="@+id/details_key_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="10dip"
+        android:layout_marginTop="40dip"
+        android:text="VideoName"
+        android:textColor="@color/white"
+        android:textSize="30dp" 
+        android:visibility="gone"/>
+         -->
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/details_key_pager"
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:layout_marginBottom="30dip"
+        android:layout_marginLeft="40dip"
+        android:layout_marginTop="70dip" />
+
+    <Gallery
+        android:id="@+id/details_key_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:layout_marginBottom="10dip"
+        android:layout_marginLeft="40dip"
+        android:layout_marginRight="40dip"
+        android:spacing="0dip"
+        android:unselectedAlpha="1" />
+
+</LinearLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/video_details_choose_tv.xml -->

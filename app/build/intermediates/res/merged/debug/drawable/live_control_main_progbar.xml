@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@android:id/background">
+        <clip android:drawable="@drawable/live_control_main_progbar_bg" />
+    </item>
+    <item android:id="@android:id/progress">
+        <clip android:drawable="@drawable/live_control_main_progbar_prog1" />
+    </item>
+
+</layer-list><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/drawable/live_control_main_progbar.xml -->

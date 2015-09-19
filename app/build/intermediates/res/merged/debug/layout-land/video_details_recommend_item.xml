@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dip"
+        android:layout_y="0dip"
+        android:background="@drawable/video_bg_selector" >
+
+        <ImageView
+            android:id="@+id/details_recommend_poster"
+            android:layout_width="120dip"
+            android:layout_height="182dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_film_img" />
+
+        <ImageView
+            android:layout_width="120dip"
+            android:layout_height="30dip"
+            android:layout_gravity="bottom"
+            android:scaleType="fitXY"
+            android:src="@drawable/video_textbg_selector" />
+
+        <TextView
+            android:id="@+id/details_recommend_name"
+            android:layout_width="120dip"
+            android:layout_height="30dip"
+            android:layout_gravity="bottom|center_horizontal"
+            android:ellipsize="marquee"
+            android:focusableInTouchMode="true"
+            android:gravity="center_horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/details_recommend_ref"
+        android:layout_width="120dip"
+        android:layout_height="25dip"
+        android:layout_marginLeft="23dip"
+        android:layout_x="21dip"
+        android:layout_y="203dip"
+        android:scaleType="fitXY" />
+
+</AbsoluteLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/video_details_recommend_item.xml -->

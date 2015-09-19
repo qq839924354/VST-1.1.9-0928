@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/video_details_bg"
+        android:orientation="vertical"
+        android:paddingTop="50dip" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="80dip" >
+
+            <LinearLayout
+                android:layout_width="122dip"
+                android:layout_height="385dip" >
+
+                <ImageView
+                    android:id="@+id/details_poster_shadow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="256dip"
+                    android:src="@drawable/show" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/details_poster"
+                android:layout_width="260dip"
+                android:layout_height="415dip"
+                android:scaleType="fitStart"
+                android:src="@drawable/hao260x366" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dip"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/details_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/white"
+                        android:textSize="30dp" />
+
+                    <TextView
+                        android:id="@+id/details_year"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1.0"
+                        android:text=""
+                        android:textColor="@color/detail_point"
+                        android:textSize="26dp" />
+
+                    <ImageView
+                        android:id="@+id/details_sharpness"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical" />
+
+                    <TextView
+                        android:id="@+id/details_rate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dip"
+                        android:ellipsize="end"
+                        android:maxWidth="320dip"
+                        android:singleLine="true"
+                        android:text=""
+                        android:textColor="@color/detail_point"
+                        android:textSize="26dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/details_director"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:singleLine="true"
+                        android:text="导演："
+                        android:textColor="@color/detail_main_text"
+                        android:textSize="24dp" />
+
+                    <TextView
+                        android:id="@+id/details_update"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text=""
+                        android:textColor="@color/detail_main_text"
+                        android:textSize="24dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        android:id="@+id/details_actors"
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.0"
+                        android:ellipsize="end"
+                        android:singleLine="true"
+                        android:text="演员："
+                        android:textColor="@color/detail_main_text"
+                        android:textSize="24dp" />
+
+                    <TextView
+                        android:id="@+id/details_playTimes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text=""
+                        android:textColor="@color/detail_main_text"
+                        android:textSize="24dp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1dip"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginTop="5dip"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/line760" />
+
+                <TextView
+                    android:id="@+id/details_video_introduce"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1.0"
+                    android:ellipsize="end"
+                    android:maxLines="4"
+                    android:text=""
+                    android:textColor="@color/detail_main_text"
+                    android:textSize="24dp" />
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="3dip"
+                    android:scrollbars="none" >
+
+                    <RadioGroup
+                        android:id="@+id/video_details_resources"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal" >
+                    </RadioGroup>
+                </HorizontalScrollView>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom" >
+
+                    <Button
+                        android:id="@+id/details_replay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dip"
+                        android:background="@drawable/video_details_play_selector"
+                        android:text="播放"
+                        android:textColor="@color/white"
+                        android:textSize="28dp"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/details_play"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dip"
+                        android:background="@drawable/video_details_play_selector"
+                        android:text="@string/details_play"
+                        android:textColor="@color/white"
+                        android:textSize="28dp" />
+
+                    <Button
+                        android:id="@+id/details_choose"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dip"
+                        android:background="@drawable/video_details_xuanji_selector"
+                        android:text="@string/details_choice"
+                        android:textColor="@color/white"
+                        android:textSize="28dp" />
+
+                    <Button
+                        android:id="@+id/details_colection"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/video_details_zhuiju_n_selector"
+                        android:text="@string/details_colection1"
+                        android:textColor="@color/white"
+                        android:textSize="28dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:text="@string/details_recommend"
+                    android:textColor="@color/detail_main_text"
+                    android:textSize="24dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="1dip"
+            android:layout_marginBottom="5dip"
+            android:layout_marginRight="80dip"
+            android:layout_marginTop="5dip"
+            android:src="@drawable/line1280" />
+        <!-- 推荐观看 -->
+
+        <include
+            android:id="@+id/details_recommend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            layout="@layout/video_details_recommend" />
+
+        <!-- 以下为电视剧选集软键布局，默认情况不显示 -->
+
+        <include
+            android:id="@+id/details_key_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/video_details_choose_tv"
+            android:visibility="gone" />
+
+        <!-- 以下为综艺选集软键布局，默认情况不显示 -->
+
+        <include
+            android:id="@+id/details_key_arts"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/video_details_choose_arts"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</FrameLayout>

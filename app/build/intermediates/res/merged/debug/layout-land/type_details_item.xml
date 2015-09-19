@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="afterDescendants"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dip"
+        android:layout_y="0dip"
+        android:background="@drawable/video_bg_selector"
+        android:descendantFocusability="blocksDescendants" >
+
+        <ImageView
+            android:id="@+id/video_poster"
+            android:layout_width="160dip"
+            android:layout_height="235dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_film_img" />
+
+        <ImageView
+            android:id="@+id/video_superHD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hd"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/video_gou"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sele_item_log"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/video_banben"
+            android:layout_width="160dip"
+            android:layout_height="30dip"
+            android:layout_gravity="bottom|right"
+            android:background="@drawable/video_textbg_selector"
+            android:ellipsize="marquee"
+            android:focusableInTouchMode="true"
+            android:gravity="center_horizontal"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:textColor="@color/detail_point"
+            android:textSize="20dp" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/video_name"
+        android:layout_width="160dip"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_x="22dip"
+        android:layout_y="257dip"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="@drawable/video_textcolor_selector"
+        android:textSize="26dp" />
+
+</AbsoluteLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/type_details_item.xml -->

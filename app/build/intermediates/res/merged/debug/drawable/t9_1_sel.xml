@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:state_focused="true" android:drawable="@drawable/t9_1_h"/>
+    <item android:state_selected="true" android:drawable="@drawable/t9_1_h"/>
+    <item android:state_pressed="true" android:drawable="@drawable/t9_1_h"/>
+    <item android:drawable="@drawable/t9_1_n"/>
+
+</selector>
+<!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/drawable/t9_1_sel.xml -->

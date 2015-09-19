@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.vst.itv52.v1.player.VideoView
+        android:id="@+id/vod_player_videoView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/vod_player_srt_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="40dp"
+        android:gravity="center_horizontal"
+        android:shadowColor="#4f77a2"
+        android:shadowDx="2"
+        android:shadowDy="-2"
+        android:shadowRadius="3.0"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="38dp"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <!-- <LinearLayout -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:orientation="vertical" > -->
+
+    <LinearLayout
+        android:id="@+id/vod_player_top_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/video_loading"
+        android:gravity="right"
+        android:padding="30dp" >
+
+        <!-- <TextView -->
+        <!-- android:id="@+id/vod_player_filmname_txt" -->
+        <!-- android:layout_width="0dp" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_weight="1.0" -->
+        <!-- android:gravity="center" -->
+        <!-- android:textColor="@color/white" -->
+        <!-- android:textSize="36sp" /> -->
+
+        <TextView
+            android:id="@id/vod_player_speed_wenzi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="实时网速： "
+            android:textColor="@color/gray"
+            android:textSize="24sp"
+            android:visibility="invisible" />
+
+        <com.vst.itv52.v1.player.TransformationWebView
+            android:id="@+id/transformation_webview"
+            android:layout_width="1dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="2dp" />
+
+        <TextView
+            android:id="@+id/vod_player_real_speed"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@id/vod_player_speed_danwei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/gray"
+            android:textSize="24sp" />
+
+        <!-- </LinearLayout> -->
+
+
+        <!-- <ImageView -->
+        <!-- android:id="@+id/vod_player_bufgif_img" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:src="@drawable/player_control_bufgif" /> -->
+
+
+        <!-- <ImageView -->
+        <!-- android:id="@+id/vod_player_bot_view" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="fill_parent" -->
+        <!-- android:scaleType="fitXY" -->
+        <!-- android:src="@drawable/vod_player_bot_bg" /> -->
+    </LinearLayout>
+
+</merge><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/vod_player_layout.xml -->

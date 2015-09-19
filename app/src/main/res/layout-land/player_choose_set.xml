@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="640dp"
+    android:layout_height="420dp"
+    android:background="@drawable/choose_set_bg"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <HorizontalScrollView
+        android:layout_width="620dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:scrollbars="none" >
+
+        <RadioGroup
+            android:id="@+id/player_choose_table"
+            android:layout_width="620dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+        </RadioGroup>
+    </HorizontalScrollView>
+
+    <ViewStub
+        android:id="@+id/player_choose_tv"
+        android:layout_width="620dp"
+        android:layout_height="350dp"
+        android:layout="@layout/player_choose_tv_gridview" />
+
+    <ViewStub
+        android:id="@+id/player_choose_art"
+        android:layout_width="620dp"
+        android:layout_height="350dp"
+        android:layout="@layout/player_choose_art_list" />
+
+</LinearLayout>

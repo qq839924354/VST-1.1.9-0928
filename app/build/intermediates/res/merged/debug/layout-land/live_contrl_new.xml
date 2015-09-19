@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/live_control_main_bg"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@id/live_control_new_channle_name"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:ellipsize="marquee"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="#ff9b00"
+            android:textSize="36dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15dp"
+            android:src="@drawable/osd_new_epg_current" />
+
+        <com.vst.itv52.v1.view.MarqueeTextView
+            android:id="@id/live_control_new_epg_current"
+            android:layout_width="550dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="left|center_vertical"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+
+        <Space
+            android:layout_width="112dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/osd_new_time" />
+
+        <TextView
+            android:id="@+id/live_control_new_systime"
+            android:layout_width="115dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="3dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@id/live_control_new_bufgif"
+        android:layout_width="match_parent"
+        android:layout_height="9dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/player_control_bufgif" />
+
+    <ProgressBar
+        android:id="@id/live_control_new_bufimg"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="9dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/live_control_main_progbar_bg"
+        android:max="100"
+        android:progressDrawable="@drawable/live_control_main_progbar"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp" >
+
+        <TextView
+            android:id="@id/live_control_new_channle_index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="43dp"
+            android:background="@drawable/osd_new_channle_bg"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@id/live_control_new_channle_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/osd_new_soure_bg"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <Space
+            android:layout_width="58dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/osd_new_epg_next" />
+
+        <com.vst.itv52.v1.view.MarqueeTextView
+            android:id="@id/live_control_new_epg_next"
+            android:layout_width="550dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="left"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@id/live_control_new_cwtime"
+            android:layout_width="108dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/osd_new_channl_sw_time"
+            android:gravity="center"
+            android:paddingLeft="20dp"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+
+        <com.vst.itv52.v1.view.MarqueeTextView
+            android:id="@id/live_control_new_speed"
+            android:layout_width="145dp"
+            android:layout_height="33dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/osd_new_conner_time"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:gravity="center"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:paddingLeft="40dp"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="24dp" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/live_contrl_new.xml -->

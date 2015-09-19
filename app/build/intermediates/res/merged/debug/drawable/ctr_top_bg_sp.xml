@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    <gradient
+        android:startColor="#FF292929"  
+        android:endColor="#00000000"  
+        android:angle="270" />  
+	<corners 
+	    android:radius="10dip"/>
+	<padding 
+	    android:left="10dip"
+	    android:right="10dip"
+	    android:top="10dip"
+	    android:bottom="10dip"/>
+</shape><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/drawable/ctr_top_bg_sp.xml -->

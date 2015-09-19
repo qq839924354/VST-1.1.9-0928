@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="afterDescendants"
+    android:paddingTop="15dp"
+    android:scrollbars="none" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@id/set_defined"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/set_item_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/defined_icon" />
+
+            <TextView
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="选择直播列表"
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+
+            <ImageView
+                android:id="@id/set_defined_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/menu_left" />
+
+            <TextView
+                android:id="@id/set_defined_tv"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="官方默认"
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+
+            <ImageView
+                android:id="@id/set_defined_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/menu_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/set_renew"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/set_item_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/live_icon" />
+
+            <TextView
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="更新直播列表"
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/menu_left" />
+
+            <TextView
+                android:id="@+id/set_renew_tv"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="点击执行"
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/menu_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/set_scalor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/set_item_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/scale_icon" />
+
+            <TextView
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="画面显示比例"
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+
+            <ImageView
+                android:id="@id/set_scalor_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/menu_left" />
+
+            <TextView
+                android:id="@id/set_scalor_tv"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="16:9"
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+
+            <ImageView
+                android:id="@id/set_scalor_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/menu_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/set_sharp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="180dp"
+            android:background="@drawable/set_item_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/sharp_icon" />
+
+            <TextView
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="点播清晰度选择"
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+
+            <ImageView
+                android:id="@id/set_sharp_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/menu_left" />
+
+            <TextView
+                android:id="@id/set_sharp_tv"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="高清"
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+
+            <ImageView
+                android:id="@id/set_sharp_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/menu_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/set_lr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:background="@drawable/set_item_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/lr_icon" />
+
+            <TextView
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="直播左右键功能设定"
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+
+            <ImageView
+                android:id="@id/set_lr_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/menu_left" />
+
+            <TextView
+                android:id="@id/set_lr_tv"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="左右键换源"
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+
+            <ImageView
+                android:id="@id/set_lr_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/menu_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/set_ud"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="300dp"
+            android:background="@drawable/set_item_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/ud_icon" />
+
+            <TextView
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="直播上下键功能设定"
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+
+            <ImageView
+                android:id="@id/set_ud_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/menu_left" />
+
+            <TextView
+                android:id="@id/set_ud_tv"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="上键下一个频道"
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+
+            <ImageView
+                android:id="@id/set_ud_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/menu_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/set_jump"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="360dp"
+            android:background="@drawable/set_item_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/jump_icon" />
+
+            <TextView
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="跳过片头片尾"
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+
+            <ImageView
+                android:id="@id/set_jump_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/menu_left" />
+
+            <TextView
+                android:id="@id/set_jump_tv"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="开启"
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+
+            <ImageView
+                android:id="@id/set_jump_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/menu_right" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@id/set_autolive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:background="@drawable/set_item_selector"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/set_icon_startlive" />
+
+            <TextView
+                android:layout_width="450dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="left"
+                android:text="快速进入直播"
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+
+            <ImageView
+                android:id="@id/set_autolive_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/menu_left" />
+
+            <TextView
+                android:id="@id/set_autolive_tv"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_horizontal"
+                android:text="停用"
+                android:textColor="@color/white"
+                android:textSize="28dp" />
+
+            <ImageView
+                android:id="@id/set_autolive_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/menu_right" />
+        </LinearLayout>
+    </FrameLayout>
+
+</ScrollView>

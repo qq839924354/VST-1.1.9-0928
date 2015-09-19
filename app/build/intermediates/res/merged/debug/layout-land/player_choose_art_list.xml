@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/player_choose_art_list"
+    android:layout_width="620dp"
+    android:layout_height="350dp"
+    android:divider="#0fff"
+    android:dividerHeight="1dp" />
+    
+<!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/player_choose_art_list.xml -->

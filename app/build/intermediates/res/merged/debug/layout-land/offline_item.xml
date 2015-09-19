@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="0dip"
+        android:layout_y="0dip"
+        android:background="@drawable/offline_item_bg_sle" >
+
+        <ImageView
+            android:id="@id/offline_item_post"
+            android:layout_width="214dip"
+            android:layout_height="120dip"
+            android:scaleType="fitXY"
+            android:src="@drawable/default_film_img" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@id/offline_item_fileName"
+        android:layout_width="214dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_x="40dip"
+        android:layout_y="170dip"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:singleLine="true"
+        android:textColor="@drawable/video_textcolor_selector"
+        android:textSize="26dp" />
+
+</AbsoluteLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/offline_item.xml -->

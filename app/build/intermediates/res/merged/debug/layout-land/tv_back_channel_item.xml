@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/tv_back_channel_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:background="@drawable/listview_item_bg_selector"
+        android:ellipsize="marquee"
+        android:gravity="left|center_vertical"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingLeft="5dip"
+        android:singleLine="true"
+        android:textColor="@drawable/channel_item_textcolor_selector"
+        android:textSize="24dp" />
+
+</LinearLayout><!-- From: file:/C:/Users/lenovo/StudioProjects/VST/app/src/main/res/layout-land/tv_back_channel_item.xml -->

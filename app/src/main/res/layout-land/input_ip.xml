@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/launcher52_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="35dip"
+        android:paddingRight="35dip"
+        android:paddingTop="10dip" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手动IP设置"
+            android:textColor="#b2b2b2"
+            android:textSize="36dp" />
+
+        <ImageView
+            android:layout_width="2dip"
+            android:layout_height="45dp"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:background="#b2b2b2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="50dp" >
+
+        <LinearLayout
+            android:layout_width="440dp"
+            android:layout_height="480dp"
+            android:background="@drawable/setup_bg_left"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@id/input_ipAdd"
+                style="@style/set_button_leftpart"
+                android:text="IP地址" />
+
+            <Button
+                android:id="@id/input_subnet"
+                style="@style/set_button_leftpart"
+                android:text="子网掩码" />
+
+            <Button
+                android:id="@id/input_gateway"
+                style="@style/set_button_leftpart"
+                android:text="默认网关" />
+            <Button
+                android:id="@id/input_dns"
+                style="@style/set_button_leftpart"
+                android:text="DNS" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@id/user_set_main_step0_tv"
+            android:layout_width="440dp"
+            android:layout_height="480dp"
+            android:background="@drawable/setup_bg_right"
+            android:gravity="top|left"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="40dp"
+            android:textColor="@color/white"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp" >
+
+        <ImageView
+            android:id="@id/user_set_main_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/osd_key_back" />
+
+        <TextView
+            android:id="@id/user_set_main_back_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上一个页面"
+            android:textColor="@color/dark"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/osd_key_ok" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定/下一个界面"
+            android:textColor="@color/dark"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@id/user_set_main_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/osd_key_option"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@id/user_set_main_menu_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="操作"
+            android:textColor="@color/dark"
+            android:textSize="18dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</LinearLayout>
