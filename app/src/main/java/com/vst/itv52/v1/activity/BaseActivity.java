@@ -25,7 +25,7 @@ public class BaseActivity extends Activity {
 	private LoadingDialog progressDialog;
 
 	public WindowManager wm;
-
+	public int liangming;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
